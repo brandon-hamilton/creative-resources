@@ -302,9 +302,11 @@ Learn how to [validate and verify data integrity](/verify-data-integrity.md) for
 
 ### AI
 
-- MidJourney
+- Midjourney
+	* Public Beta: https://discord.gg/midjourney
 	* https://twitter.com/midjourney
 	* https://github.com/midjourney/docs
+	* https://midjourney.gitbook.io/docs
 	* https://www.midjourney.com/app/
 	* Summary: text to image automation via Discord bot, commercial subscription plans available
 
@@ -543,6 +545,7 @@ Common file transfer web applications. Links point to the business or paid versi
 	* https://twitter.com/conceptartworld
 	* https://twitter.com/ArtStationHQ
 	* https://twitter.com/scrtwpns (EbSynth + Mixbox)
+	* https://twitter.com/midjourney
 
 ---
 
