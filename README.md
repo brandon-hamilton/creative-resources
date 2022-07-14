@@ -11,6 +11,8 @@ Banner image credits:
 
 Click on the individual `.md` files above for details on that topic.
 
+On mobile, you'll need to click `View code` first to see the `.md` files.
+
 Continue below for general details and resources.
 
 ---
@@ -129,7 +131,7 @@ Learn how to [validate and verify data integrity](/verify-data-integrity.md) for
 	* https://topazlabs.com/studio/
 	* Summary: automate painting & artistic style matching with machine learning
 
-- Topaz Giga Pixel
+- Topaz Gigapixel
 	* https://topazlabs.com/gigapixel-ai
 	* Summary: upscales images accurately using machine learning
 
