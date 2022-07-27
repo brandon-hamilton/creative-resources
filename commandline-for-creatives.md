@@ -37,13 +37,13 @@ More examples replacing a pattern:
 
 ```bash
 # Template, replaces x with y for all files in the current working directory (cwd)
-for file in ./*\.*; do mv "$file" $(echo "$file" | sed 's/x/y/g'); done
+for file in ./*\.*; do mv "$file" "$(echo "$file" | sed 's/x/y/g')"; done
 
 # replace -- with _ for all files in the current working directory (cwd)
-for file in ./*\.*; do mv "$file" $(echo "$file" | sed 's/--/_/g'); done
+for file in ./*\.*; do mv "$file" "$(echo "$file" | sed 's/--/_/g')"; done
 
 # replace .jpg.jpg with .jpg for all files in the current working directory (cwd)
-for file in ./*\.*; do mv "$file" $(echo "$file" | sed 's/\.jpg\.jpg/\.jpg/g'); done
+for file in ./*\.*; do mv "$file" "$(echo "$file" | sed 's/\.jpg\.jpg/\.jpg/g')"; done
 ```
 
 ---
