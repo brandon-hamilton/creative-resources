@@ -59,9 +59,11 @@ The next section demonstrates this process.
 
 Some results will have what you're looking for, but are cropped in a strange way that might obscure part of the subject.
 
+**NOTE: This section was created to demonstrate + document the process after seeing this topic mentioned multiple times in the DALL-E Discord.**
+
 ![](/media/automation-dall-e-2-001.png)
 
-You can resolve this in a few ways:
+You can resolve this in a similar way to using Photoshop's [Content-Aware Fill](https://helpx.adobe.com/photoshop/using/content-aware-fill.html):
 
 - Download and open the image in an external editor (e.g. [GIMP](https://www.gimp.org/))
 - Move or scale the image while maintaining the 1024x1024 canvas size
