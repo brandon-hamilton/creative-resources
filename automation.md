@@ -2,9 +2,47 @@
 
 Techniques to give you more time to design and create.
 
+## Extracting & Generating Layers
+
+With the `Object Selection Tool`'s `Select Subject` function...
+
+![](/media/ps-select-subject-001.png)
+
+...Photoshop can automatically map a selection to what it interprets to be the image's subject:
+
+![](/media/ps-select-subject-002.gif)
+
+It's not always perfect, but it will give you a better selection than what's manually possible within a reasonable amount of time for most non hard surface or high contrast edge types (compared to using the `Object Selection Tool` alone). What appears to be happening is an automatic combination of both, selecting the object or overall shape it believes to be the subject, with additional refinement you'd get from adjusting settings found in `Select and Mask...`. Any areas where it fails to select something accurately can be adjusted manually in much less time.
+
+Repeating this technique as many times as necessary, now you have your subject(s)
+
+To generate the layer data beneath the subject(s), you can...
+
+Paint the transparency with the `Spot Healing Brush Tool`:
+
+![](/media/ps-spot-heal-001.gif)
+
+Or loosely select the transparency and use `Edit` > `Fill...` > (Content-Aware) > `OK`:
+
+![](/media/ps-content-aware-001.gif)
+
+In both cases the results are, once again, not always perfect. This is OK, you can continue to leverage the `Spot Healing Brush Tool` to iterate over areas that need refinement. 
+
+This will get you within 90% of the image result you're working towards in most cases:
+
+![](/media/ps-spot-heal-002.gif)
+
+
+With your layers fully separated, you can get back to creating efficiently with non destructive edits:
+
+![](/media/ps-select-subject-003.gif)
+
+
 ## DALL-E 2
 
 [DALL-E 2](https://openai.com/dall-e-2/) (currently in beta) is an AI powered image generation platform created by OpenAI.
+
+If you haven't already, check the `...` menu after logging in to the prompt dashboard to join DALL-E's official Discord.
 
 ### Prompts
 
@@ -45,7 +83,7 @@ Example list of `keywords` that can modify the resulting image:
 - `cyberpunk`, `vaporwave`, `synthwave`, `neon`, `medieval`, `glitch`, `fractal`
 - `nighttime`, `daytime`, `rain`, `snow`, `wind`, `sun`, `fall`, `winter`, `overcast`
 
-For more examples on ways to construct a prompt, be sure to check the DALL-E 2 Discord top-tips-and-tricks channel.
+For more examples on ways to construct a prompt, be sure to check the DALL-E 2 Discord top-tips-and-tricks and faq-and-resources channels.
 
 ### Editing
 
@@ -63,7 +101,7 @@ Some results will have what you're looking for, but are cropped in a strange way
 
 ![](/media/automation-dall-e-2-001.png)
 
-You can resolve this in a similar way to using Photoshop's [Content-Aware Fill](https://helpx.adobe.com/photoshop/using/content-aware-fill.html):
+You can resolve this in a similar way to using Photoshop's [Content-Aware Fill](https://helpx.adobe.com/photoshop/using/content-aware-fill.html) which is [mentioned above](#extracting--generating-layers):
 
 - Download and open the image in an external editor (e.g. [GIMP](https://www.gimp.org/))
 - Move or scale the image while maintaining the 1024x1024 canvas size
