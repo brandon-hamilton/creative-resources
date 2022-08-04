@@ -37,14 +37,36 @@ More examples replacing a pattern:
 
 ```bash
 # Template, replaces x with y for all files in the current working directory (cwd)
-for file in ./*\.*; do mv "$file" "$(echo "$file" | sed 's/x/y/g')"; done
-
-# replace -- with _ for all files in the current working directory (cwd)
-for file in ./*\.*; do mv "$file" "$(echo "$file" | sed 's/--/_/g')"; done
+for file in ./*\.*; do if (echo "$file" | grep -Fq "x"); then mv "$file" "$(echo "$file" | sed 's/x/y/g')"; fi; done
 
 # replace .jpg.jpg with .jpg for all files in the current working directory (cwd)
-for file in ./*\.*; do mv "$file" "$(echo "$file" | sed 's/\.jpg\.jpg/\.jpg/g')"; done
+for file in ./*\.*; do if (echo "$file" | grep -Fq ".jpg.jpg"); then mv "$file" "$(echo "$file" | sed 's/.jpg.jpg/.jpg/g')"; fi; done
+
+# replace -- with _ for all files in the current working directory (cwd)
+for file in ./*\.*; do if (echo "$file" | grep -Fq "--"); then mv "$file" "$(echo "$file" | sed 's/\-\-/_/g')"; fi; done
 ```
+
+The last example required both `--` characters be escaped, meaning a `\` is in front of each character.
+
+[Escaping](https://en.wikipedia.org/wiki/Escape_character) is required for some symbols and characters that are often used on the command line for special purposes such as modifying the command.
+
+Escaping those characters tells the command line to interpret them *literally* (as two dashes `--`) rather than special command modifiers.
+
+If a command ever has unexpected results, (or to avoid unexpected results) try single quoting arguments for a command, or escaping any symbols or characters that aren't plain letters or numbers.
+
+For example:
+
+```bash
+# single quoting the argument made to the "echo" command
+echo 'argument one'
+
+# escaping the space, because spaces are special characters
+# how would "echo" know if it's one, or two arguments, without single quotes or escaping?
+echo argument\ one
+```
+
+[This page from the bash manual](https://www.gnu.org/software/bash/manual/bash.html#Escape-Character) provides a good overview of this concept.
+
 
 ---
 
