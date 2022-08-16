@@ -13,6 +13,16 @@ Methods for discovering images for reference or use in work.
 | `Google`      | Images > [search-query] > Tools > Usage Rights > [license]                                       |
 | `DuckDuckGo`  | [search-query] > Images > All Licenses > [license] (Free to Modify, Share, and Use commercially) |
 
+## Social Media
+
+Social media sites often have their own search syntax, taking Reddit for example:
+
+<https://www.reddit.com/wiki/search/>
+
+```
+author:<user> subreddit:<subreddit> "<query>"
+```
+
 ## Discovery Process
 
 **EXAMPLE**: You're tasked with creating an image with multiple subjects at a high angle.
@@ -30,6 +40,14 @@ How else can we think about this to solve the problem?
 	* 'breakdance'
 
 Thinking like this will open new paths in your search.
+
+## Real Locations
+
+[https://www.google.com/maps](https://www.google.com/maps) can provide granular insights into a real location.
+
+Use [Street View](https://support.google.com/maps/answer/3093484) by clicking the 'Pegman' in the bottom right of the maps web UI. Streets or locations with image data will be highlighted. Clicking on any highlighted section of a street allows you to navigate them as if you were there, as well as certain internal locations where either Google or a user has captured and submitted image data.
+
+Keep in mind most of these images are [subject to copyright or other terms](https://www.google.com/intl/en_us/help/terms_maps/), and should only be used as reference or a proof of concept.
 
 ## Product Assets
 
@@ -68,6 +86,7 @@ This is not a perfect solution, there may be cases where a client, product manuf
 
 **Always check with your point of contact before beginning, for usage requirements and availability of assets.**
 
+
 ## Image Sets
 
 Direct links to useful or consistent image sets (to prevent hours of searching)
@@ -95,6 +114,8 @@ Obtain and [archive a copy](https://web.archive.org/) of the license agreement t
 For example, keep a spreadsheet of assets and sources, or even a simple note with a template of asset, filename, source uri, and license information, which you can reuse for each project to track these.
 
 The following licenses are examples of what you'll want to look for when sourcing or buying assets to use in your work. The Photobash.co license is a particularly great example of the wording you may need to cover your usage requirements.
+
+**Keep in mind these licenses were quoted directly at the time this section was created. The exact wording may change at a later date.**
 
 ## Pexels License
 
