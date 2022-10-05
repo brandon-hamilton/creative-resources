@@ -88,6 +88,7 @@ Learn how to [validate and verify data integrity](/verify-data-integrity.md) for
 		curl -LfO 'https://ccmdl.adobe.com/AdobeProducts/KCCC/CCD/5_7_1/macarm64/ACCCx5_7_1_1.dmg'
 
 		# Latest Windows 10/11 x64
+		$ProgressPreference = "SilentlyContinue"
 		Invoke-WebRequest -Uri "https://ccmdl.adobe.com/AdobeProducts/KCCC/CCD/5_7_1/win64/ACCCx5_7_1_1.zip" -OutFile "C:\Windows\Temp\ACCC_latest.zip"
 		Expand-Archive -Path "C:\Windows\Temp\ACCC_latest.zip" -DestinationPath "C:\Your\Destination\Path"
 		& 'C:\Your\Destination\Path\Set-up.exe'
@@ -110,6 +111,10 @@ Learn how to [validate and verify data integrity](/verify-data-integrity.md) for
 	* Summary: 2D graphics editor
 	* Install Instructions: https://www.gimp.org/downloads/
 	* Documentation: https://www.gimp.org/docs/
+
+	* Resynthesizer (texture, style transfer)
+	* Install Instructions: https://github.com/bootchk/resynthesizer/wiki/Install-Resynthesizer
+	* Documentation: https://github.com/bootchk/resynthesizer/wiki/Quick-user's-guide-to-the-Resynthesizer-plugins-for-GIMP
 
 - Krita
 	* https://krita.org/
@@ -309,10 +314,12 @@ Learn how to [validate and verify data integrity](/verify-data-integrity.md) for
 	* https://midjourney.gitbook.io/docs
 	* https://www.midjourney.com/app/
 	* Summary: text to image automation via Discord bot, commercial subscription plans available
+	* [Licensing for Commercial Use](https://midjourney.gitbook.io/docs/billing#commercial-terms)
 
 - DALL-E 2
 	* https://openai.com/dall-e-2/
-	* Summary: text to image automation research project
+	* Summary: text to image automation
+	* [Licensing for Commercial Use](https://labs.openai.com/policies/terms)
 
 - synthesia
 	* https://www.synthesia.io
@@ -321,6 +328,14 @@ Learn how to [validate and verify data integrity](/verify-data-integrity.md) for
 - Nvida AI Research
 	* https://www.nvidia.com/en-us/research/ai-playground/
 	* Summary: demos of automation in image generation
+
+- Stable Diffusion
+	* https://stability.ai/
+	* https://twitter.com/stabilityai
+	* https://stability.ai/blog/stable-diffusion-public-release
+	* [DreamStudio](https://beta.dreamstudio.ai/), a paid web application using Stable Diffusion
+		- [Images created in DreamStudio fall under the CC0 1.0 (Public Domain)](https://stability.ai/faq)
+	* Summary: text to image automation
 
 ---
 
@@ -447,6 +462,23 @@ Common file transfer web applications. Links point to the business or paid versi
 	* [Quick Texture / Assembly](https://discord.gg/HnXDz6C)
 	* [WarriorPainters](https://www.google.com/url?q=https%3A%2F%2Fdiscord.gg%2FeRhxyc2PDh&sa=D&sntz=1&usg=AOvVaw0iPkD8l04IBm8PoN9pcqKL)
 	* [pixologic](https://pixologic.com/discord)
+	* [Stable Diffusion](https://discord.gg/stablediffusion)
+
+**TIP**: When joining Discord communities via links on mobile:
+
+* Invite links look like this: `https://discord.gg/<url>`
+* `Tap-hold` to copy the `https://discord.gg/<url>` link
+* Open the Discord app (not a browser) and navigate to the `+` icon below all of your servers
+* Select `Join a server` at the bottom to paste this link manually into that field
+
+This will safely allow you to join servers and avoid potential redirects.
+
+**TIP**: To log out of Discord on other devices:
+
+* On mobile, go to your profile
+* Choose devices
+* If you don't recognize any, remove them (you'll be prompted for you passphrase + 2FA token)
+* Change your password if there were any you didn't recognize.
 
 ---
 
@@ -503,6 +535,9 @@ Common file transfer web applications. Links point to the business or paid versi
 
 - stylegan2-ada (refactoring of stylegan)
 	* https://github.com/NVlabs/stylegan2-ada
+
+- stable-diffusion
+	* https://github.com/CompVis/stable-diffusion
 
 - Teradici Deployment Scripts
 	* https://github.com/teradici/cloud_deployment_scripts

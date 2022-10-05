@@ -17,6 +17,7 @@ The [direct downloads](https://helpx.adobe.com/download-install/kb/creative-clou
 curl -LfO 'https://ccmdl.adobe.com/AdobeProducts/KCCC/CCD/5_7_1/macarm64/ACCCx5_7_1_1.dmg'
 
 # Latest Windows 10/11 x64
+$ProgressPreference = "SilentlyContinue"
 Invoke-WebRequest -Uri "https://ccmdl.adobe.com/AdobeProducts/KCCC/CCD/5_7_1/win64/ACCCx5_7_1_1.zip" -OutFile "C:\Windows\Temp\ACCC_latest.zip"
 Expand-Archive -Path "C:\Windows\Temp\ACCC_latest.zip" -DestinationPath "C:\Your\Destination\Path"
 & 'C:\Your\Destination\Path\Set-up.exe'
@@ -47,6 +48,18 @@ TO DO
 - Exporting the brush to a file
 
 ---
+
+## Processing Files
+
+Actions
+
+- Start "recording" with the record button
+- It will observe *most* of your actions in photoshop until you press the "stop" button
+- Pressing "play" will execute that sequence of actions again
+- Actions can be leveraged in batch processing
+
+[Batch Processing](https://helpx.adobe.com/photoshop/using/processing-batch-files.html)
+
 
 ## Line Art Techiques
 
