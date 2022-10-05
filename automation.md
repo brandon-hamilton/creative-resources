@@ -2,6 +2,10 @@
 
 Techniques to give you more time to design and create.
 
+## Processing Files
+
+See [adobe-photoshop.md](/adobe-photoshop.md) for scripting, actions, and batch processing.
+
 ## Extracting & Generating Layers
 
 With the `Object Selection Tool`'s `Select Subject` function...
@@ -97,6 +101,14 @@ The next section demonstrates this process.
 
 Some results will have what you're looking for, but are cropped in a strange way that might obscure part of the subject.
 
+#### Using Outpainting
+
+<https://openai.com/blog/dall-e-introducing-outpainting/>
+
+Outpainting was introduced which allows you to extend the image content beyond the initial canvas from directly within DALL-E's editor. The above blog post has a timelapse demonstration of how this works.
+
+#### Manual Editing
+
 **NOTE: This section was created to demonstrate + document the process after seeing this topic mentioned multiple times in the DALL-E Discord.**
 
 ![](/media/automation-dall-e-2-001.png)
@@ -151,6 +163,66 @@ The difference is this consumes much less time than manually drawing.
 - [missing/needed]
 
 Generally all Photocopy filters produce the same effect. Use the `Median` filter, or your program's equivalent if the lines need smoothed.
+
+
+## Style Transfer
+
+Transfer the style of one image to another
+
+### GIMP + Resynthesizer
+
+**TO DO**: steps for Windows or macOS
+
+[Install the Resynthesizer plugin](https://github.com/bootchk/resynthesizer/wiki/Install-Resynthesizer)
+
+The flatpak version is the recommended way to install the latest Resynthesizer plugin. Some Linux distros have all of the available plugins bundled under a `gimp-plugin-registry` package. This package may not always have Resynthesizer, or work depending on the required dependancies. The flatpak version contains only the Resynthesizer component with everything it requires to run.
+
+Obtain a list of flatpak applications, we only want those that begin with `org.gimp.GIMP.` in the **Application ID**:
+```bash
+flatpak search resynthesizer
+```
+
+You'll want to install the version that corresponds to your Gnome Application Platform version:
+```bash
+flatpak info org.gnome.Platform
+```
+
+Install the matching verison with this, replacing `<verison>` with yours:
+```bash
+sudo flatpak install org.gimp.GIMP.Plugin.Resynthesizer/x86_64/2-<version>
+```
+
+You can also simply run `sudo flatpak install resynthesizer` and flatpak will walk you through prompts allowing you to select the correct plugin to install.
+
+Resynthesizer can be found under `Filters` > `Map` > `Resynthesize...`
+
+Open your source and destination images.
+
+Optionally duplicate the target layer(s) which you're transfering to, so you can compare them to the originals after.
+
+These settings are a good starting point to accurately map painting styles to real photographs:
+
+| Options            | Explaination                                                                             |
+| ------------------ | ---------------------------------------------------------------------------------------- |
+| `Texture source`   | Your source image, the style you want on the destination image                           |
+| `Output`           | Generate machine-like patterns, leave these unchecked                                    |
+| `Context`          | Set to `Random order, with context`                                                      |
+| `Texture Transfer` | Check `Use texture transfer`, this is what maps a style to an image                      |
+| `Input map`        | Your source image, the style you want on the destination image, same as `Texture source` |
+| `Output map`       | The image or layer your style will be transferred to, the destination image              |
+| `Map importance`   | Set to about `0.80` to maintain the overall content of your destination image            |
+
+| Tweaks                    | Explaination  |
+| ------------------------- | ------------- |
+| `Neighborhood size`       | Set to `20`   |
+| `Search thoroughness`     | Set to `200`  |
+| `Sensitivity to outliers` | Set to `0.12` |
+
+The `Tweaks` section will help with performance.
+
+Some or all of the above settings will need adjusted based on each of the input and output factors, as well as the intended result for the destination image.
+
+This operation can be slow depending on your settings. For reference, on a Virtual Machine with 4vCPU and 8GB RAM, transferring styles using the above settings takes roughly 7 minutes on image sizes of Source=`1600 x 2000` Destination=`3000 x 2500`. Using real hardware will likely produce much faster results.
 
 ---
 
