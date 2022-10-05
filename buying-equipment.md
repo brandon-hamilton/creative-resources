@@ -35,6 +35,70 @@ TO DO
 
 ---
 
+## Printer / Scanner
+
+Review manufacturer documents for:
+
+- Cost of ink
+- Availability of ink
+- Cost of paper
+- Availability of paper
+- Device support lifecycle
+- Device management
+	* Can it be managed locally? Embedded WebServer?
+	* Mobile app or cloud required?
+- Additional software requirements
+	* Drivers?
+	* Account / registration required?
+- USB support
+- Ethernet support
+- Wireless can be locked down / disabled
+
+### CUPS Printing Service
+
+> CUPS is an open source printing system developed by Apple for macOS and UNIX-like (Linux) operating systems.
+
+- <https://github.com/apple/cups>
+- <https://github.com/apple/cups/blob/master/README.md>
+
+Useful commands to help you identify compatible printers for your device, taken from the [README.md](https://github.com/apple/cups/blob/master/README.md):
+
+> You can run the lpinfo -m command to list all of the available drivers:
+> 
+> ```bash
+> lpinfo -m
+> ```
+> 
+> Run the lpinfo -v command to list the available printers:
+> ```bash
+> lpinfo -v
+> ```
+
+HP has an index of printers supported by the open source `hplip` package (installed by default on Ubuntu):
+
+- <https://developers.hp.com/hp-linux-imaging-and-printing/supported_devices/index>
+- <https://developers.hp.com/hp-linux-imaging-and-printing>
+
+Check your locally installed version of CUPS compared to the **minimum HPLIP version** a printer requires for compatability.
+
+For all cases, you want the following:
+
+| Feature          | Status      |
+| ---------------- | ----------- |
+| `Driver Plug-in` | No          |
+| `Support Level`  | Full        |
+| `Connectivity`   | USB,Network |
+
+- 'No' for the `Driver Plug-in` means you do not need the additional proprietary driver to interface with the printer.
+
+- `Connectivity` should always support at least USB + Network at minumum. Parellel support is great in addition too.
+
+#### Open source printer drivers
+
+- <https://www.openprinting.org/>
+
+---
+
 ## CPU / Processor
 
 TO DO
