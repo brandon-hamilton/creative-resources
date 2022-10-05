@@ -46,6 +46,8 @@ Keeping them on hand in a notes application or a password manager will save you 
 			* [why](https://security.googleblog.com/2019/05/new-research-how-effective-is-basic.html) [you](https://krebsonsecurity.com/2020/06/turn-on-mfa-before-crooks-do-it-for-you/) [seriously](https://www.microsoft.com/security/blog/2019/08/20/one-simple-action-you-can-take-to-prevent-99-9-percent-of-account-attacks/) [need](https://www.cisa.gov/mfa) [to.](https://owasp.org/www-community/attacks/Credential_stuffing)
 		- Ensure Kernel / OS protections are on and working
 			* macOS
+				* [General Security Recommendations](https://support.apple.com/guide/mac-help/set-up-your-mac-to-be-secure-flvlt003/12.0/mac/12.0)
+				* [General Privacy Recommendations](https://support.apple.com/guide/mac-help/guard-your-privacy-mh35847/12.0/mac/12.0)
 				* [Firmware Password](https://support.apple.com/en-us/HT208198#firmwarepassword)
 				* [Secure Boot](https://support.apple.com/en-us/HT208198#secureboot)
 				* [Full Disk Encryption](https://support.apple.com/en-us/HT204837)
