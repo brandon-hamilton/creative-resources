@@ -34,13 +34,13 @@
 #### Color code layers
 - `Right-Click` the layer in Photoshop / GIMP to change the layer color
 
-![](/media/ps-layers-group-004.gif)
+![](media/ps-layers-group-004.gif)
 
 	- e.g. all layers for the main character are blue
 	- e.g. all layers for background objects are grey
 - This makes it easy for someone else to understand without examining the entire document and making their own notes
 
-![](/media/ps-layers-organized-001.PNG)
+![](media/ps-layers-organized-001.PNG)
 
 #### Name files logically
 - `yyyymmdd_company_job_asset_version.psd`

@@ -70,7 +70,7 @@ Generate, and overlay line art above color / b&w:
 - Layer blending mode = `Multiply`
 - Layer opacity = `%`
 
-![](/media/ps-lineart-tech-001.gif)
+![](media/ps-lineart-tech-001.gif)
 
 For diagrams or structural drawings it may help to have each section's line art in a single color.
 
@@ -85,7 +85,7 @@ For diagrams or structural drawings it may help to have each section's line art 
 
 This allows the color to only apply to each group's line art layers while each group of line art layers are visible
 
-![](/media/ps-lineart-tech-002.gif)
+![](media/ps-lineart-tech-002.gif)
 
 To recap:
 
@@ -163,20 +163,20 @@ You can create cel and sprite-based frame animation in photoshop from layers:
 
 - `Window` > `Timeline` > `Create Frame Animation`
 
-![](/media/ps-animation-001.PNG)
+![](media/ps-animation-001.PNG)
 
 - `[Timeline Menu]` > `Make Frames From Layers`
 
-![](/media/ps-animation-002.PNG)
+![](media/ps-animation-002.PNG)
 
 - Adjust the timing of each frame in the `Timeline` by clicking the `v` arrow next to the time value
 - Choose `Other...` to enter a custom value
 
-![](/media/ps-animation-003.PNG)
+![](media/ps-animation-003.PNG)
 
 - `0.08` second delay works well for most pixel art
 
-![](/media/ps-animation-004.PNG)
+![](media/ps-animation-004.PNG)
 
 - Each frame can have different layers visible or hidden
 	* e.g. background always visible
@@ -188,11 +188,11 @@ You can create cel and sprite-based frame animation in photoshop from layers:
 
 Example hiding / showing layer(s) across all frames:
 
-![](/media/ps-animation-005.gif)
+![](media/ps-animation-005.gif)
 
 The resulting GIF:
 
-![](/media/ps-animation-006.gif)
+![](media/ps-animation-006.gif)
 
 #### Exporting Sprite Layers to PNGs
 
@@ -236,11 +236,11 @@ TO DO
 
 **NOTE**: if you have multiple sets of keyboard shortcuts, choose the one you want to backup here:
 
-![](/media/ps-kbsc-001.PNG)
+![](media/ps-kbsc-001.PNG)
 
 This button's icon is just above the 'Accept' button on the top right, has the down arrow onto what looks like a computer hard drive, and three '...' underneath of it. It will save a `.kys` file.
 
-![](/media/ps-kbsc-002.PNG)
+![](media/ps-kbsc-002.PNG)
 
 **RESTORE**: `Double-Click` any `.kys` file. 
 
@@ -269,7 +269,7 @@ cp ./your-keyboard-shortcuts.kys '/Users/[user name]/Library/Preferences/Adobe P
 
 This is the same button / icon as we used to save the keyboard shortcuts, only here it's in the top middle of the window. It will save a `.mnu` file.
 
-![](/media/ps-mnu-001.PNG)
+![](media/ps-mnu-001.PNG)
 
 **RESTORE**: `Double-Click` any `.mnu` file. 
 
@@ -304,9 +304,9 @@ Double click the `.psw` file to move it to the right column.
 
 Click `Import Presets`
 
-![](/media/ps-preset-manager-001.PNG)
+![](media/ps-preset-manager-001.PNG)
 
-![](/media/ps-preset-manager-002.PNG)
+![](media/ps-preset-manager-002.PNG)
 
 **RESTORE**: Alternatively you can do this with PowerShell or bash.
 

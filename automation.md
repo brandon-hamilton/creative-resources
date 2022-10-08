@@ -10,11 +10,11 @@ See [adobe-photoshop.md](/adobe-photoshop.md) for scripting, actions, and batch 
 
 With the `Object Selection Tool`'s `Select Subject` function...
 
-![](/media/ps-select-subject-001.png)
+![](media/ps-select-subject-001.png)
 
 ...Photoshop can automatically map a selection to what it interprets to be the image's subject:
 
-![](/media/ps-select-subject-002.gif)
+![](media/ps-select-subject-002.gif)
 
 It's not always perfect, but it will give you a better selection than what's manually possible within a reasonable amount of time for most non hard surface or high contrast edge types (compared to using the `Object Selection Tool` alone). What appears to be happening is an automatic combination of both, selecting the object or overall shape it believes to be the subject, with additional refinement you'd get from adjusting settings found in `Select and Mask...`. Any areas where it fails to select something accurately can be adjusted manually in much less time.
 
@@ -24,22 +24,22 @@ To generate the layer data beneath the subject(s), you can...
 
 Paint the transparency with the `Spot Healing Brush Tool`:
 
-![](/media/ps-spot-heal-001.gif)
+![](media/ps-spot-heal-001.gif)
 
 Or loosely select the transparency and use `Edit` > `Fill...` > (Content-Aware) > `OK`:
 
-![](/media/ps-content-aware-001.gif)
+![](media/ps-content-aware-001.gif)
 
 In both cases the results are, once again, not always perfect. This is OK, you can continue to leverage the `Spot Healing Brush Tool` to iterate over areas that need refinement. 
 
 This will get you within 90% of the image result you're working towards in most cases:
 
-![](/media/ps-spot-heal-002.gif)
+![](media/ps-spot-heal-002.gif)
 
 
 With your layers fully separated, you can get back to creating efficiently with non destructive edits:
 
-![](/media/ps-select-subject-003.gif)
+![](media/ps-select-subject-003.gif)
 
 
 ## DALL-E 2
@@ -111,7 +111,7 @@ Outpainting was introduced which allows you to extend the image content beyond t
 
 **NOTE: This section was created to demonstrate + document the process after seeing this topic mentioned multiple times in the DALL-E Discord.**
 
-![](/media/automation-dall-e-2-001.png)
+![](media/automation-dall-e-2-001.png)
 
 You can resolve this in a similar way to using Photoshop's [Content-Aware Fill](https://helpx.adobe.com/photoshop/using/content-aware-fill.html) which is [mentioned above](#extracting--generating-layers):
 
@@ -119,7 +119,7 @@ You can resolve this in a similar way to using Photoshop's [Content-Aware Fill](
 - Move or scale the image while maintaining the 1024x1024 canvas size
 - This leaves transparency where you need further image content generated
 
-![](/media/automation-dall-e-2-002.png)
+![](media/automation-dall-e-2-002.png)
 
 - Upload the image to DALL-E 2
 - At 'Select a square area to edit' four dots in the corners of the image can be moved to resize the image area
@@ -132,15 +132,15 @@ For example, clicking where the red circle is will be enough for DALL-E 2 to kno
 
 **TIP**: if you receive an error about nothing being erased, click in the transparency once more and try generating again.
 
-![](/media/automation-dall-e-2-003.png)
+![](media/automation-dall-e-2-003.png)
 
 DALL-E 2 will then generate the missing information.
 
-![](/media/automation-dall-e-2-004.png)
+![](media/automation-dall-e-2-004.png)
 
 ## Image to Line Art Automation
 
-![](/media/ps-filters-lineart-001.gif)
+![](media/ps-filters-lineart-001.gif)
 
 The idea here is this method will do 90% of the work. Any artist with good foundational 2D skills will be able to take the result to a finished presentable state.
 

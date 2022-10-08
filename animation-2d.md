@@ -27,7 +27,7 @@ This example is from a Linux VM with 4 CPU cores, and 8 GB of RAM.
 - 534 frames loaded
 - GIMP is the only program open
 
-![](/media/resource-usage-002.png)
+![](media/resource-usage-002.png)
 
 If you were to add Chrome or Firefox, you'd be out of space to work. If your job requires you ever work live on various files while screen sharing, you will need minimum 32GB RAM for animation or video editing.
 
@@ -67,6 +67,6 @@ Notes adapted from here: <https://docs.blender.org/manual/en/latest/render/outpu
 
 Once the files are open as layers and loaded into memory, rendering the GIF only requires CPU.
 
-![](/media/resource-usage-003.png)
+![](media/resource-usage-003.png)
 
 The resulting GIF will playback slower than any `.mp4` version. To fix this you'll need to adjust the time between frames in GIMP when saving.

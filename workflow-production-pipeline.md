@@ -59,7 +59,7 @@ You can always easily switch back to [Method 1](/workflow-production-pipeline.md
 	* Quickly identify the same element across multiple PSD files
 	* Easy drag & drop of elements into other PSD files
 	
-![](/media/ps-layers-organized-001.PNG)
+![](media/ps-layers-organized-001.PNG)
 
 #### 3. Edit color layers directly, and duplicate any critical layers before editing, at all stages
 
@@ -178,7 +178,7 @@ Use these steps as guidelines anytime a layered document will be a deliverable.
 
 #### 2. Group all current color layers into a "Color" group
 
-![](/media/ps-layers-group-001.gif)
+![](media/ps-layers-group-001.gif)
 
 ---
 
@@ -186,7 +186,7 @@ Use these steps as guidelines anytime a layered document will be a deliverable.
 
 Duplicate the "Color" group into a working "Line Art" group.
 
-![](/media/ps-layers-group-002.gif)
+![](media/ps-layers-group-002.gif)
 
 Rename the layers with a pre/suffix indicating they're line art.
 
@@ -201,12 +201,12 @@ Rename the layers with a pre/suffix indicating they're line art.
 
 What this looks like:
 
-![](/media/ps-layers-group-003.gif)
+![](media/ps-layers-group-003.gif)
 
 	* Choose a color to color code all line art layers with 
 	* This way you can quickly see which layers are line art in the layer pane
 
-![](/media/ps-layers-group-004.gif)
+![](media/ps-layers-group-004.gif)
 
 **WHY?** 
 
@@ -226,7 +226,7 @@ To do this, follow these steps:
 	* `Filters > Filter Gallery > Sketch > Photocopy, Darkness: 8, Detail: 4`
 	* `Edit > Stroke Width: 2px, Location: Center, OK`
 
-![](/media/ps-filters-lineart-001.gif)
+![](media/ps-filters-lineart-001.gif)
 
 The above `Photocopy` settings of `Darkness=8` and `Detail=4` work well with HD / 4K resolution
 
@@ -241,7 +241,7 @@ You'll want to run the filter once by navigating the menus (`Filters > Filter Ga
 
 Example below:
 
-![](/media/ps-filters-lineart-002.gif)
+![](media/ps-filters-lineart-002.gif)
 
 Example above, continued:
 
@@ -347,7 +347,7 @@ Layers should look like:
 
 So the file is easy to navigate:
 
-![](/media/ps-layers-organized-001.PNG)
+![](media/ps-layers-organized-001.PNG)
 
 **Not** like:
 
@@ -368,7 +368,7 @@ So the file is easy to navigate:
 
 Which is completely unreadable:
 
-![](/media/ps-layers-disorganized-001.PNG)
+![](media/ps-layers-disorganized-001.PNG)
 
 ---
 
