@@ -1,6 +1,8 @@
 # Creative Resources
 
-![](/media/banner.png)
+![](media/banner.png)
+
+View the web version at <https://brandon-hamilton.github.io/creative-resources-web/>.
 
 ## Goal of this Project
 
@@ -43,6 +45,8 @@ This is not legal or tax advice. Seek professional legal and financial advice.
 Creative Resources is released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
 
 Any external documentation referenced or quoted directly is linked back to or cited, belongs to the original author(s), and would fall under it's respective license(s).
+
+The web version is powered by [mkdocs-material](https://github.com/squidfunk/mkdocs-material), released under the [MIT License](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE).
 
 ---
 
