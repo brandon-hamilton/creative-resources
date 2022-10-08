@@ -15,7 +15,7 @@ Using any raster / photo image:
 
 This should serve as a quick introduction to what's possible with pixel art by manipulating image sizes.
 
-## Managing Pixel Art Layers for Animation
+## Managing Layers for Animation
 
 This section includes Krita as part of the workflow. This is optional, however:
 

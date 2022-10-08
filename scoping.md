@@ -1,51 +1,62 @@
-# Project Scoping
+# Scoping
 
 This comes in many forms. Two examples:
 
-## Where you are are tasked with working on a project:
+## Joining a Project
 
-Questions to ask on a scoping call for a project.
+Where you're tasked with working on a project. Questions to ask on a scoping call for a project.
 
 **NOTE**: in this case, billing or other details external to the work itself would have already been discussed and agreed upon.
 
-You can stick to answering just the numbered points below. Ask more questions if necessary.
+### 1) Timeframe
 
-#### 1. Timeline and deadlines
-	- Internal reviews / deadlines
-	- External reviews / deadlines
-#### 2. Expectations of updates and drafts?
-	- Timing / frequency
-#### 3. Expectations of deliverables and end result?
-	- File format?
-	- Layers?
-	- Line Art? B&W? Color?
+- Internal reviews / deadlines
+- External reviews / deadlines
 
-**Electronic delivery**
+### 2) Updates / Drafts
 
-	- Single Document (e.g. PDF, Word, PSD)?
-	- Individual Documents (e.g. SVG, PSD, PNG)?
-	- Pre-existing template?
-	- Resolution + DPI?
+Expectations of updates.
 
-**Physical delivery**
+- Timing / frequency
+- Types of drafts
 
-	- Frame? Matte?
-	- Printing logisitcs
-		* Where / what printing services are available
-		* Test prints?
-		* Cost
-	- Shipping logistics
-		* Timeframe (e.g. days vs week+)
-		* Packaging (e.g. how / what materials are needed to protect + ship the item)
-		* Cost
-	- Cost of all materials?
+### 3) Deliverables
 
-#### 4. Availability of photo / art assets of product / brand / concept for use?
+Expectations of deliverables.
 
-	- Time to build mood board if assets are provided
-	- Time to build mood board if assets are not provided
+- File format?
+- Layers?
+- Line Art? B&W? Color?
 
-## Where you're managing the project:
+#### Electronic Delivery
+
+- Single Document (e.g. PDF, Word, PSD)?
+- Individual Documents (e.g. SVG, PSD, PNG)?
+- Pre-existing template?
+- Resolution + DPI?
+
+#### Physical Delivery
+
+- Frame? Matte?
+- Printing logisitcs
+	* Where / what printing services are available
+	* Test prints?
+	* Cost
+- Shipping logistics
+	* Timeframe (e.g. days vs week+)
+	* Packaging (e.g. how / what materials are needed to protect + ship the item)
+	* Cost
+- Cost of all materials?
+
+### 4) Asset Usage
+
+- Availability of photo, art, product, and brand assets for use
+- Time to build mood board if assets are provided
+- Time to build mood board if assets are not provided
+
+## Managing a Project
+
+Where you're managing the project.
 
 - Defining the scope of a project.
 	* What is the long term goal

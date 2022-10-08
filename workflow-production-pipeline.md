@@ -1,4 +1,4 @@
-# Staging PSD Versions
+# Workflow - Production Pipeline
 
 Efficiently handle working with Photoshop documents in a production pipeline
 
@@ -11,7 +11,7 @@ Efficiently handle working with Photoshop documents in a production pipeline
 
 ---
 
-### Choose your file handling method:
+### File Handling Methods
 
 - A) Single PSD, export static PNG updates as `YYYYMMDD_COMPANY_PROJECT_ASSET-NAME.VERSION.png`
 - B) Multiple PSD's, saved and archived for each revision as `YYYYMMDD_COMPANY_PROJECT_ASSET-NAME.VERSION.psd`
@@ -33,7 +33,7 @@ You can always easily switch back to [Method 1](/workflow-production-pipeline.md
 
 ---
 
-# Method 1: Static Updates -> Layered Finals
+## Method 1: Static Updates -> Layered Finals
 
 - Final delivery: Color or B&W or Line Art
 - Interim updates requiring only static images for: Line Art (and/or) B&W (and/or) Color
@@ -122,7 +122,9 @@ How this saves time editing line art:
 
 Essentially any manual adjustments here can be ported over to the next round of changes without always needing to redo them.
 
-# IMPORTANT
+---
+
+**IMPORTANT**
 
 Create a backup file locally for each export or major changes.
 
@@ -150,7 +152,7 @@ Jump to [section 5](#5-create-a-shared-folder-separate-from-your-working-folder)
 
 ---
 
-# Method 2: Fully Layered Updates
+## Method 2: Fully Layered Updates
 
 Use these steps as guidelines anytime a layered document will be a deliverable.
 
@@ -286,7 +288,7 @@ This keeps the filesize small, and the layer structure less cluttered.
 
 #### 4. Save the document (this is considered the 'main' document)
 
-# IMPORTANT
+**IMPORTANT**
 
 From here always do `Save as` when creating a new document to send to the next person. This prevents you from saving over your `main` document after potentially flattening layers.
 
@@ -368,6 +370,7 @@ Which is completely unreadable:
 
 ![](/media/ps-layers-disorganized-001.PNG)
 
+---
 
 ## Proceeding from Line Art to B&W or Color
 

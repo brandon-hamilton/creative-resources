@@ -1,4 +1,4 @@
-# AWS
+# Cloud AWS
 
 https://aws.amazon.com/
 
@@ -118,11 +118,11 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/launch-instance-with-uefi-sb
 https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/launch-instance-with-uefi-sb.html
 
 
-# AWS CLI
+## AWS CLI
 
 <https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html>
 
-## Installation Instructions
+### Install Instructions
 
 1.  Download the archive and `gpg` signature:
 
@@ -189,7 +189,7 @@ unzip awscliv2.zip
 sudo ./aws/install
 ```
 
-## Prerequisites
+### Prerequisites
 
 <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html>
 
@@ -199,11 +199,11 @@ sudo ./aws/install
 > 
 > 3. Create an access key ID and secret access key
 
-#### 1. Sign up for AWS
+#### 1) Sign Up for AWS
 
 It's assumed you've already done this.
 
-#### 2 IAM user creation
+#### 2) IAM user creation
 
 Steps: <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html>
 
@@ -229,7 +229,7 @@ Steps: <https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs
 > 
 > 7. After you download the .csv file, choose Close. When you create an access key, the key pair is active by default, and you can use the pair right away.
 
-#### 3 Grant this user access to billing
+#### 3) Grant User Billing Access
 
 Steps: <https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html>
 

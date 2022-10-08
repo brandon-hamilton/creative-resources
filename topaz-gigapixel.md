@@ -1,6 +1,6 @@
 # Topaz Gigapixel
 
-https://topazlabs.com/gigapixel-ai
+<https://topazlabs.com/gigapixel-ai>
 
 ## Scaling Images
 

@@ -1,9 +1,12 @@
+# Topaz Studio 2
 
-# Topaz Studio 2 Recipes:
+## Topaz Studio 2 Recipes
 
 You can easily backup the files with all of your presets, but it's not a bad idea to remember how you made them.
 
-## Flat 1 
+---
+
+### Flat 1
 
 Use case: Block-in, Painterly
 
@@ -14,26 +17,35 @@ Use case: Block-in, Painterly
 * Disable `Edges`
 * Abstaction > Feature Boost=`0`
 
-## Impasto I 
+---
+
+### Impasto I
 
 Use case: Painterly
 
 * Add Look > [Look Category=`Abstract`, Sort By=`Impression`] > **Impasto I**
 * Drop Amount to ~50%
 
-## Colored Pencil II 
+---
+
+### Colored Pencil II
 
 Use case: Tangible, painterly, good for a color layer under line art
 
 * Add Look > [Look Category=`Artistic`, Sort By=`Impression`] > **Colored Pencil II**
 * Drop **Amount** to 40-60%
 
-## Colored Pencil II
+---
+
+### Colored Pencil II
+
 * Increase `Brush Size`
 * Reduce `Spill`
 * Drop `Lighting` Variables to `0.0`
 
-## Edward Hopper 
+---
+
+### Edward Hopper
 
 Use case: Block-in, Painterly, works under line art or as a color base
 
@@ -43,7 +55,9 @@ Use case: Block-in, Painterly, works under line art or as a color base
 * Reset Color > **Brightness** to default `0`
 * Reset Color > **Contrast** to default `0`
 
-## Degas Dancers 
+---
+
+### Degas Dancers
 
 Use case: Painterly, base for final
 

@@ -2,11 +2,11 @@
 
 Creating and editing frame or cel animation files.
 
-# Frame Animation
+## Frame Animation
 
 Check the animation section of [adobe-photoshop](/adobe-photoshop.md#animation)
 
-# Creating Short GIF Recordings
+## Creating Short GIF Recordings
 
 This can be done with either (Photoshop) or (Blender + GIMP) to edit and export an OBS recording.
 
@@ -35,18 +35,18 @@ If you were to add Chrome or Firefox, you'd be out of space to work. If your job
 
 Record Screen > File > Remux `.mkv` to `.mp4`
 
-## Option 1: Photoshop, Render as GIF
+### Option 1: Photoshop, Render as GIF
 
 - Open the `.mp4` file in Photoshop.
 - Be sure to add `Window` > `Timeline` to your workspace if it's not already visible.
 - Make any adjustments
 - `File` > `Export` > `Save for Web (Legacy)...` > `Save` to create a GIF
 
-## Option 2: Blender, GIMP, Render as GIF
+### Option 2: Blender, GIMP, Render as GIF
 
 `Open .mp4` -> `Blender` -> `<make edits>` -> `Output` -> `Render as PNG's` -> `GIMP/KRITA` -> `Render GIF`
 
-#### Blender
+## Blender
 
 
 Notes adapted from here: <https://docs.blender.org/manual/en/latest/render/output/animation.html>
@@ -61,7 +61,7 @@ Notes adapted from here: <https://docs.blender.org/manual/en/latest/render/outpu
 - `Output` > `File Format` > `FFmpeg Video` (mp4)
 - `Render` > `Render Animation` (let it do it's thing, it's actually writing the file(s) while this is happening)
 
-#### GIMP
+## GIMP
 
 `Open as layers` -> `Select all PNGs` -> `Export As...` -> `file.GIF` -> `OK`
 

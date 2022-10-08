@@ -1,10 +1,10 @@
-##  VM / Cloud Deployment
+#  Cloud VM Usage
 
 Also known as VDI or vWS, virtual machine deployment will become larger in the future. 
 
 Why is this technology worth looking at?
 
-### Virtualization
+## Virtualization
 
 - Resiliancy (an update gone wrong doesn't stop work)
 - Scalable workloads (need a powerful GPU to render something once?)
@@ -13,7 +13,7 @@ Why is this technology worth looking at?
 - Development Environment
 - Portability (move virtual appliances between hosts, have a backup of your entire workspace)
 
-### Cloud
+## Cloud
 
 - Immediate workspace access from any compute device should your physical workstation fail
 	* If there are supply chain constraints, a real replacement could take months
@@ -27,7 +27,7 @@ Why is this technology worth looking at?
 		- This would require VPN infrastructure or networking knowledge to not put your home network at risk
 	* No putting your expensive devices at risk of theft or damage while traveling
 
-### PCoIP (recommended protocol for running creative applications remotely)
+## PCoIP
 
 - Much higher performance than other remote access protocols (it's 1:1 in responsiveness for drawing / painting)
 - Designed to support creative workflows (video / audio editing, 2D / 3D, Wacom Tablet & USB passthrough)
@@ -53,18 +53,22 @@ It's different than other remote access software in that you cannot pull data di
 2. Agree to the ToS
 3. `Download Now` will download the installer
 4. `SHA` will reveal the installer's hashes to verify the integrity
-	- Copy the string of letters / numbers under `SHA-256 hash for pcoip-client_22.04.0.exe`
-	- Open the folder containing the downloaded `.exe` file
-	- In an empty space in the that folder window, `Shift+Right-Click > Open PowerShell window here`
-	```powershell
-	Get-FileHash .\pcoip-client_22.04.0.exe | Select-String PASTE_THE_STRING_OF_LETTERS_AND_NUMBERS_HERE
-	```
-	- Hit enter
-	- If it matches you should see the following:
-	```powershell
-	@{Algorithm=SHA256; Hash=THE_STRING_YOU_PASTED_IS_HERE
-	```
-	- If there's no match you won't see that output, download the file again and ensure the hash matches before you run it.
+
+- Copy the string of letters / numbers under `SHA-256 hash for pcoip-client_22.04.0.exe`
+- Open the folder containing the downloaded `.exe` file
+- In an empty space in the that folder window, `Shift+Right-Click > Open PowerShell window here`
+
+```powershell
+Get-FileHash .\pcoip-client_22.04.0.exe | Select-String PASTE_THE_STRING_OF_LETTERS_AND_NUMBERS_HERE
+```
+- Hit enter
+- If it matches you should see the following:
+
+```powershell
+@{Algorithm=SHA256; Hash=THE_STRING_YOU_PASTED_IS_HERE
+```
+
+- If there's no match you won't see that output, download the file again and ensure the hash matches before you run it.
 
 If you're familiar with PowerShell and scripting they provide the exact URL's to use in a script to automatically install, check for updates, and run this software.
 
@@ -72,14 +76,15 @@ If you're familiar with PowerShell and scripting they provide the exact URL's to
 
 - [Download - Linux Client](https://docs.teradici.com/find/product/software-and-mobile-clients/2022.01/software-client-for-linux)
 
-> ```bash
-> # Ubuntu 18.04
-> curl -1sLf https://dl.teradici.com/DeAdBCiUYInHcSTy/pcoip-client/cfg/setup/bash.deb.sh | sudo -E distro=ubuntu codename=bionic bash
-> # Ubuntu 20.04
-> curl -1sLf https://dl.teradici.com/DeAdBCiUYInHcSTy/pcoip-client/cfg/setup/bash.deb.sh | sudo -E distro=ubuntu codename=focal bash
-> ```
+```bash
+# Ubuntu 18.04
+curl -1sLf https://dl.teradici.com/DeAdBCiUYInHcSTy/pcoip-client/cfg/setup/bash.deb.sh | sudo -E distro=ubuntu codename=bionic bash
+# Ubuntu 20.04
+curl -1sLf https://dl.teradici.com/DeAdBCiUYInHcSTy/pcoip-client/cfg/setup/bash.deb.sh | sudo -E distro=ubuntu codename=focal bash
+```
 
 Public key for reference:
+
 ```
 # pub   rsa4096 2020-09-24 [SC]
 #      9A70 FD64 D3F7 3934 1A2F  8AC7 4581 DD6A CC91 0D6F
@@ -94,7 +99,7 @@ Public key for reference:
 > sudo apt install pcoip-client
 > ```
 
-### Teradici in AWS
+## Teradici in AWS
 
 - [Overview of VDI deployment in AWS for creative professionals](https://aws.amazon.com/blogs/media/deploying-your-favorite-post-production-applications-on-aws-virtual-desktop-infrastructure/)
 - [This guide](https://aws.amazon.com/blogs/media/getting-started-with-aws-cloud-video-editing/) covers setting up a cloud VM for video editing.
@@ -106,7 +111,7 @@ Public key for reference:
 
 Be sure to read [cloud-aws.md](/cloud-aws.md) first. That document covers specifics, while this provides a complete general overview from account creation to starting the instance.
 
-#### Setup
+### Setup
 
 **Subscriptions**: these are marketplace offerings in AWS, or what VM's you can deploy and use in their cloud. That's what they call them. You pay per hour unless you add a yearly software usage agreement up front.
 
@@ -127,7 +132,7 @@ Be sure to read [cloud-aws.md](/cloud-aws.md) first. That document covers specif
 
 1. At this point you can continue through the prompts to launch an instance.
 
-#### Launch an instance:
+### Launch an Instance:
 
 1. EC2
 	* `Instances` > `Launch Instances`
@@ -149,7 +154,7 @@ Be sure to read [cloud-aws.md](/cloud-aws.md) first. That document covers specif
 			* You may want to consider securing access to the server with your own VPN in AWS.
 	* Launch Instance	
 
-#### First time login:
+### First Time Login
 
 1. After launching the instance, [wait ~4 minutes before retrieving the Windows password](https://aws.amazon.com/premiumsupport/knowledge-center/retrieve-windows-admin-password/) (it can take longer)
 
@@ -165,7 +170,7 @@ Be sure to read [cloud-aws.md](/cloud-aws.md) first. That document covers specif
 		- **RECOMMENDED**: Change or update the admin password if it's not unique
 		- **RECOMMENDED**: Create a standard user account to use rather than the administrator (Windows) or root (Linux) account
 
-### Teradici in Google Cloud
+## Teradici in Google Cloud
 
 Google Cloud Quick-Start, step by step deployment of a trial VM:
 
@@ -211,7 +216,7 @@ Google Cloud Quick-Start, step by step deployment of a trial VM:
 		- **RECOMMENDED**: Change or update the admin password if it's not unique
 		- **RECOMMENDED**: Create a standard user account to use rather than the administrator (Windows) or root (Linux) account
 
-#### Teradici in Azure
+## Teradici in Azure
 
 Azure Deployment guide for a developer ready PCoIP VM:
 - https://connect.teradici.com/hubfs/Teradici%20Virtual%20Desktops%20for%20Game%20Developers.pdf
@@ -220,7 +225,7 @@ Azure Deployment guide for a developer ready PCoIP VM:
 
 ---
 
-#### Teradici Usage Summary
+## Teradici Usage Summary
 
 By default copy/paste on the clipboard works to/from the remote machine.
 
@@ -241,7 +246,7 @@ Realistically you're not using this full time. Most likely you'd be using it for
 
 ---
 
-### macOS in AWS
+## macOS in AWS
 
 Run a full macOS desktop environment in the cloud, connecting via ssh and Teradici.
 
@@ -257,7 +262,7 @@ Run a full macOS desktop environment in the cloud, connecting via ssh and Teradi
 
 ---
 
-### Nvidia:
+## Nvidia:
 
 The easiest way to use Nvidia vGPU solutions is through a cloud provider offering a virtual desktop
 
@@ -288,7 +293,7 @@ Example use case:
 
 ---
 
-### Adobe
+## Adobe
 
 CC VDI Deployment
 - https://helpx.adobe.com/enterprise/using/creative-cloud-deployment-on-vdi.html

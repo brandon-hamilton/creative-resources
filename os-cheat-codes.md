@@ -1,8 +1,8 @@
-# 'Cheat Codes' 
+# OS 'Cheat Codes'
 
-(Useful OS Key Combinations)
+Useful OS Key Combinations
 
-### Windows
+## Windows
 
 The folder / windows explorer application has some useful key combinations to know:
 

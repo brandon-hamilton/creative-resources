@@ -6,7 +6,7 @@ Photo Editing, Design, Digital Painting, Animation, Video Editing
 
 https://helpx.adobe.com/support/photoshop.html
 
-#### Install via Commandline
+#### Command Line Install
 
 https://helpx.adobe.com/download-install/kb/creative-cloud-desktop-app-download.html
 

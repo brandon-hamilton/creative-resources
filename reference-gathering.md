@@ -1,6 +1,8 @@
-# Image Recon
+# Reference Gathering
 
 Methods for discovering images for reference or use in work.
+
+## Image Recon
 
 - [Google Advanced Search](https://www.google.com/advanced_search?hl=en&fg=1)
 - [Google Search Syntax](https://support.google.com/websearch?p=adv_operators&hl=en)
@@ -86,6 +88,7 @@ This is not a perfect solution, there may be cases where a client, product manuf
 
 **Always check with your point of contact before beginning, for usage requirements and availability of assets.**
 
+---
 
 ## Image Sets
 
@@ -107,7 +110,7 @@ Create your own reference library to save you time and keep you focused on the v
 
 ---
 
-# Image Licensing:
+## Image Licensing:
 
 Obtain and [archive a copy](https://web.archive.org/) of the license agreement to every asset purchased, or service you use to generate imagery for commercial / personal work
 
@@ -115,9 +118,9 @@ For example, keep a spreadsheet of assets and sources, or even a simple note wit
 
 The following licenses are examples of what you'll want to look for when sourcing or buying assets to use in your work. The Photobash.co license is a particularly great example of the wording you may need to cover your usage requirements.
 
-**Keep in mind these licenses were quoted directly at the time this section was created. The exact wording may change at a later date.**
+**Keep in mind these licenses were quoted directly at the time this section was created. The exact wording may have changed.**
 
-## Pexels License
+### Pexels License
 
 - https://www.pexels.com/license
 - https://www.pexels.com/terms-of-service/
@@ -125,7 +128,7 @@ The following licenses are examples of what you'll want to look for when sourcin
 > For all Content made available for download on the Service, that is not CC0-Content or Sponsored Content, Pexels grants you an irrevocable, perpetual, non-exclusive, royalty-free license to download, copy, modify, distribute, perform, and otherwise use the Content (this does not include Sponsored Content), including for commercial purposes, without attributing the photographer/ content owner or Pexels ("Pexels License"). The Content made available for download on the Service under the Pexels-License ("Pexels Content") is marked with the reference "Pexels License" next to the respective picture / content.
 
 
-## Unsplash License
+### Unsplash License
 
 - https://unsplash.com/license
 - https://unsplash.com/terms
@@ -133,7 +136,7 @@ The following licenses are examples of what you'll want to look for when sourcin
 > Unsplash grants you an irrevocable, nonexclusive, worldwide copyright license to download, copy, modify, distribute, perform, and use photos from Unsplash for free, including for commercial purposes, without permission from or attributing the photographer or Unsplash. This license does not include the right to compile photos from Unsplash to replicate a similar or competing service.
 
 
-## Photobash.co
+### Photobash.co
 
 - https://www.photobash.co/knowledge/license-agreement
 
@@ -153,7 +156,7 @@ The following licenses are examples of what you'll want to look for when sourcin
 > Content can be used freely and is intended for incorporated use in the following types of Creations:
 > concept art, illustration, matte painting, video games, movies & film, television shows, CGI, 3D scenes and models, arch viz, pre-visualizations, VR products, graphic design, multimedia projects, advertising, presentations, mobile & web design, art books, event flyers, posters, brochures and any other digital or printed media where our Photos or Models are incorporated and do not comprise the primary value of the product's intended sale or distribution. 
 
-## Pixabay License
+### Pixabay License
 
 - https://pixabay.com/service/terms/
 

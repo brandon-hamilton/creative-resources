@@ -4,6 +4,8 @@ All about record keeping, so you can do work once instead of twice.
 
 Echoing what was stated in the [README](/README.md#legal-disclaimer), this is not legal or tax advice. Seek professional legal and financial advice.
 
+---
+
 ## Backup & Recovery
 
 - External
@@ -45,6 +47,8 @@ Two common formats of exported email content are `.mbox` and `.eml`.
 `.eml` is an individual email file.
 
 These can be read locally (offline) by mail clients and imported to most other providers should you ever need to do so.
+
+---
 
 ## Billing
 
@@ -147,7 +151,7 @@ Calculate 90% of the sum, of every value in column E, for each row where column 
 =SUMIF(A:A, "*PAID", E:E)*0.9
 ```
 
-#### Protect your billing data
+#### Protect Your Billing Data
 
 Encrypt and protect any billing or financial data.
 

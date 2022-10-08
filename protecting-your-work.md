@@ -2,6 +2,8 @@
 
 Methods and techniques for protecting either sensitive or proprietary data.
 
+---
+
 ## Safely Sharing Work
 
 Check your cloud sharing service's documentation on exactly how things work. Most if not all of these options are available through the major cloud providors for 'pro' or 'business' users.
@@ -32,7 +34,7 @@ If you do not have a 'pro' or 'business' account at a cloud provider with these 
 
 TO DO
 
-#### Generate Unique Watermarks
+### Generate Unique Watermarks
 
 This technique can apply to both protected or internal work, as well as sensitive forms and documents.
 
@@ -43,6 +45,8 @@ When sending government ID's or forms to a business, watermark them with:
 ```
 
 When work needs to be sent to different departments internally, you can and likely will have to watermark them for internal use only.
+
+---
 
 ## Encryption
 
@@ -74,23 +78,31 @@ Another way to look at asymmetric / public key cryptography:
 
 Shoutout to [Paul Asadoorian](https://twitter.com/securityweekly) for this analogy.
 
-## Application Encryption
+---
+
+### Application Encryption
 
 - Adobe products have builtin 128-bit password protected (symmetric) encryption for most of their software.
 	* [Acrobat](https://www.adobe.com/acrobat/hub/how-to/how-to-secure-pdf-documents)
 	* [Photoshop](https://helpx.adobe.com/photoshop/using/saving-pdf-files.html#save_in_photoshop_pdf_format)
 - Other applications may have a similar feature
 
-## Archive Encryption
+---
+
+### Archive Encryption
 
 Compressed archives usually offer a way to AES-256 encrypt the contents.
 
 - [7-Zip](https://www.7-zip.org/) will be the most straight forward GUI option, mainly for Windows
 - Most Linux archive managers have built in encryption options
 
-## Command Line Tools
+---
+
+### Command Line Tools
 
 This will always be the easiest and most universal, but is unforunately the least straight forward if you're unfamiliar with the command line
+
+---
 
 #### OpenSSL
 
@@ -121,6 +133,8 @@ enter aes-256-cbc decryption password:
 cat file.txt
 if you can read this, decryption worked!
 ```
+
+---
 
 #### gpg
 

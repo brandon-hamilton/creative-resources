@@ -24,7 +24,7 @@ The archived link from the nvidia article above has a set of images to help you 
 
 Some settings will require restarting applications or logging out / in before the changes take effect.
 
-**NVIDIA**
+#### NVIDIA
 
 If you have an nvidia graphics card use the NVIDIA Settings package (`nvidia-settings` in apt)
 
@@ -45,7 +45,7 @@ If you have an nvidia graphics card use the NVIDIA Settings package (`nvidia-set
 	* Contrast
 	* Gamma
 
-**Integrated / CPU Graphics**
+#### Integrated / CPU Graphics
 
 If you have and nvidia card, or your system uses integrated graphics, use `Settings > Displays` to make configurations.
 
@@ -55,7 +55,7 @@ If you have and nvidia card, or your system uses integrated graphics, use `Setti
 	* [Kali - HiDPI](https://www.kali.org/docs/general-use/hidpi/)
 	* [Kali - Fixing HiDPI Issues](https://www.kali.org/docs/general-use/fixing-dpi/)
 
-#### External Monitors
+### External Monitors
 
 - Check that each monitor is set to it's native resolution in the display settings
 - Check that [HiDPI](https://medium.com/elementaryos/what-is-hidpi-and-why-does-it-matter-b024eabea20d) is enabled on your system

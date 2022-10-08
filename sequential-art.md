@@ -1,10 +1,10 @@
 # Sequential Art
 
-## Sequential Art Workflow
+## Workflow
 
 There are two viable options:
 
-**OPTION 1.** Single PSD file
+### Single PSD File
 
 ```
 	* Do this if the order of the images / frames will change
@@ -22,7 +22,7 @@ There are two viable options:
 	- Not for final images or detailed sketches
 ```
 
-**OPTION 2.** Multiple PSD files / images
+### Multiple PSD Files / Images
 
 ```
 	* Do this if the order of the images / frames is locked (no changes or infrequent changes)
@@ -38,6 +38,8 @@ There are two viable options:
 ```
 
 It's roughly the same amount of work in both cases to save a single board and individual frames. This will lean in one direction depending on which is required.
+
+---
 
 ### Sequential Art Layers
 
@@ -65,6 +67,8 @@ etc...
 Ideally you'd use the `Grouped Frames` method giving you the most control and portability in moving individual layers around with the cost of slightly more overhead.
 
 The `Flat Layers` method is best suited for storyboards that will be super rough / early stage, where all of the foreground / background line art shares a single layer. This is slightly more intuitive to work with but less portable and forgiving when rearranging frame order.
+
+---
 
 ### Mixing Workflows
 

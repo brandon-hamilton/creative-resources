@@ -1,8 +1,8 @@
-# Legal
+# Legal, Compliance
 
 Echoing what was stated in the [README](/README.md#legal-disclaimer), this is not legal advice. Seek professional legal advice.
 
-#### US Business Structures & Resources
+## US Business Structures
 
 These are commons business structures you may encounter:
 
@@ -30,7 +30,7 @@ Depending on your situation you may have some, none, or more of these details.
 
 Keeping them on hand in a notes application or a password manager will save you a ton of time whenever you need to recall the specifics for whatever it may be.
 
-# Compliance Standards
+## Compliance Standards
 
 - MPAA
 	* https://www.motionpictures.org/what-we-do/safeguarding-creativity/additional-resources/

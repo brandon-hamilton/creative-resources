@@ -93,7 +93,7 @@ For all cases, you want the following:
 
 - `Connectivity` should always support at least USB + Network at minumum. Parellel support is great in addition too.
 
-#### Open source printer drivers
+#### Open Source Printer Drivers
 
 - <https://www.openprinting.org/>
 
@@ -159,8 +159,7 @@ Other Considerations:
 
 **NOTE**: A default install of Windows 10 / 11 with Chrome / Edge open can consume up to 4 GB of RAM while idle. 16GB of total RAM will be too low in most cases.
 
-### Minimum Recommended Specs:
-
+#### Minimum Specs
 
 - `6 Core CPU, 12 Threads`
 	* Provides enough 'lanes' in the 'highway' to juggle necessary tasks
@@ -170,7 +169,7 @@ Other Considerations:
 	* Allows leveraging GPU acceleration (but not enough for GPU-centric workloads)
 - `3x USB-A Ports`
 	* Wacom + Mic + Camera
-		- The builtin camera / microphone may not work as well as external hardware
+		- The built in camera / microphone may not work as well as external hardware
 	* Wacom + Mouse & Keybaord
 	* Wacom + External Drives
 - `2x 1TB+ SSD, read/write 500MB/s+`

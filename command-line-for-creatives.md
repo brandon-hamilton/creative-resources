@@ -1,4 +1,6 @@
-# Getting Help
+# Command Line for Creatives
+
+## Getting Help
 
 If you ever need help with a `<command>`, or want to know what it does, here's how to show the information directly in the terminal.
 
@@ -19,7 +21,7 @@ user@user:~$ <command> -h
 user@user:~$ <command> --help
 ```
 
-# Renaming Files Programmatically
+## Renaming Files Programmatically
 
 ### Renaming Files With Bash
 
@@ -67,7 +69,6 @@ echo argument\ one
 
 [This page from the bash manual](https://www.gnu.org/software/bash/manual/bash.html#Escape-Character) provides a good overview of this concept.
 
-
 ---
 
 ### Renaming Files With PowerShell
@@ -83,7 +84,7 @@ Get-ChildItem *.jpg.jpg | Rename-Item -NewName { $_.Name -replace '.jpg.jpg','.j
 
 ---
 
-# Finding Files On Your PC
+## Finding Files On Your PC
 
 Applies to: Windows, macOS, Linux
 
@@ -91,7 +92,7 @@ Both `PowerShell` and `bash` have become cross-platform in recent years, so exam
 
 ---
 
-### Finding Files Using cmd.exe
+### Using cmd.exe
 
 ```cmd
 dir /S /B C:\Users\User | findstr /R ".\.psw"
@@ -108,15 +109,15 @@ cmd.exe /C dir /S /B C:\Users\User | findstr /R ".\.psw"
 | Syntax                        | Description                                                                                                           |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | `cmd.exe /C`                  | used to execute Windows command prompt commands, if you're in PowerShell                                              |
-| `dir /S /B C:\Users\User` | `/S` will search recursively, while `/B` displays the filename without additional information                             |
-| `\|`                          | the pipeline 'pipes' the output from `command 1` for `command 2` to use                                               |
-| `findstr /R ".\.psw"` | Attempts to find the string (findstr) matching a regular expression of `.\.psw` (Essentially, tell us all of the `.psw` files that you can find) |
+| `dir /S /B C:\Users\User`     | `/S` will search recursively, while `/B` displays the filename without additional information                         |
+| `|`                           | the pipeline 'pipes' the output from `command 1` for `command 2` to use                                               |
+| `findstr /R ".\.psw"`         | Attempts to find the string (findstr) matching a regular expression of `.\.psw` (Essentially, tell us all of the `.psw` files that you can find) |
 
 See the additional syntax of `/R` regular expressions quick reference with: `findstr /?`
 
 ---
 
-### Finding Files Using PowerShell
+### Using PowerShell
 
 ```powershell
 Get-ChildItem -Path C:\Users\User\*.psw -Recurse -Force -ErrorAction SilentlyContinue | Sort-Object -Unique | select -Property FullName
@@ -141,7 +142,7 @@ PS C:\Users\User> Get-ChildItem -Path C:\Users\User\*.psw -Recurse -Force -Error
 
 ---
 
-### Finding Files Using bash
+### Using bash
 
 ```bash
 find / -type f -name "*.psw" -ls 2>/dev/null
@@ -162,7 +163,7 @@ The above command finds all `.psw` files on the entire hard drive `/` and shows 
 
 ---
 
-### Finding Files: Practical Example
+### Practical Example
 
 ```powershell
 PS C:\Users\User> Get-ChildItem -Path C:\Users\User\*2021*V001*R00[1-7].psd -Recurse -Force -ErrorAction SilentlyContinue | Sort-Object -Unique | select -Property FullName

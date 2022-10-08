@@ -1,6 +1,8 @@
 # Verify Data Integrity
 
-### Technical safeguards operating systems use to verify data:
+Technical safeguards operating systems use to verify data.
+
+## OS Mechanisms
 
 **Windows**: [Windows Defender](https://docs.microsoft.com/en-us/microsoft-365/security/intelligence/criteria?view=o365-worldwide)
 
@@ -15,7 +17,9 @@ Some additional guidance and overview from Microsoft, which applies to any opera
 
 In most cases, these detections are signature based and not behavioral (meaning based on the static 'fingerprint' of the file, not what the file does while running).
 
-# How you can verify data manually:
+---
+
+## Manual Verification
 
 The following resources each do a great job at showing and explaining how and why to verify signatures. This is essentially what's happening in the background with the mechanisms mentioned above, though the type of signature and exact tools used may differ.
 
@@ -48,5 +52,7 @@ If it's a binary, or the file is **publicly known**, then check a public signatu
 
 **Be sure you only submit a domain name when checking links and not the full URL itself, as anything you submit becomes public**
 
-- OK: `example.com`
-- BAD: `example.com/confidential/link/to/financial/documents`
+| Status     | Example                                                |
+| ---------- | ------------------------------------------------------ |
+| OK         | `example.com`                                          |
+| _**BAD**_  | `example.com/confidential/link/to/financial/documents` |

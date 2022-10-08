@@ -57,10 +57,12 @@ Nearly all of the points in the section below are from this BHIS webcast: [How t
 		- [Android: Hide notifications on lock screen](https://support.google.com/android/answer/9075927#zippy=%2Cstop-showing-notifications-on-your-lock-screen)
 		- [Android: Manage app's notifications](https://support.google.com/android/answer/9079661#zippy=%2Cturn-notifications-on-or-off-for-certain-apps)
 
-#### Conferencing + Streaming
+### Conferencing + Streaming
 
 - Reflections in glasses (be aware what's on screen, are other projects visible?)
 - What's visible in your office and workspace? (be aware of surroundings, documents, files)
+
+[This video by TCM](https://www.youtube.com/watch?v=BhZfIBKvjNM) is a practical example of what you should be aware of if you're a streamer or influencer. It takes an older video of an influencer doing a home tour (they're of course no longer living there), and ends with a surprisingly quick walkthrough of finding the home's exact location and address through public data within a few minutes based on visual indicators.
 
 ---
 
@@ -84,11 +86,13 @@ The entire guide is free, and the removal section is one part of a larger proces
 
 ---
 
-# Due Diligence
+## Due Diligence
 
 Ways to review information for accuracy and legitimacy.
 
 The goal of these [OSINT](https://en.wikipedia.org/wiki/Open-source_intelligence) sections is to outline a basic framework you can fall back on when in doubt. Additional resources are linked to learn more if you need to.
+
+---
 
 ## Email OSINT
 
@@ -126,7 +130,9 @@ One option with suspicious emails is to take a *non-confidential* string of text
 
 Be sure the text you past into Google or Discord's search is *not confidential* as in it's not information that *could* be proprietary or not public. In the event the email is legitimate you don't want to have posted anything sensitive or proprietary.
 
-## How to check DNS records
+---
+
+### How to check DNS records
 
 Here's how to get an idea of the legitimacy of the email by looking at the headers:
 
@@ -149,7 +155,9 @@ dig @dns.quad9.net example.org -t MX +https
 
 This is still not perfect, but it will encrypt your queries.
 
-## MX Records
+---
+
+### MX Records
 
 Mail exchange records, or what domains are authorized to *receive* your mail.
 
@@ -160,7 +168,9 @@ nslookup -type=MX example.org 9.9.9.9
 
 Noting the domains in the response will indicate what mail provider the domain owner uses, and help us review the remaining records.
 
-## SPF Records
+---
+
+### SPF Records
 
 First you can check the `TXT` records of a domain for [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) settings. This lists what IP addresses and domains are permitted to *send* mail on behalf of this domain.
 
@@ -185,7 +195,9 @@ nslookup -type=PTR <ip-address> 9.9.9.9
 
 Of course you can also review further domains using these same techniques if there are others listed here.
 
-## DMARC Records
+---
+
+### DMARC Records
 
 Next we'll look at [DMARC](https://en.wikipedia.org/wiki/DMARC) records. These records tell the recipient's mail client what to do with an email if it fails this check. We do this by prepending `_dmarc.` to the base domain name:
 
@@ -202,7 +214,9 @@ The results likely show a `p=` value. This can be any of the following:
 
 A result of `none` may be an indicator that this domain's DNS records are misconfigured, and it's possible the mail can be spoofed if other protections fail.
 
-## DKIM Records
+---
+
+### DKIM Records
 
 Next we'll check `DKIM` records
 
@@ -224,7 +238,9 @@ dig @9.9.9.9 <selector>._domainkey.example.org -t TXT
 
 You may see other records in the result, such as `CNAME` records pointing to another domain (essentially indicating they're related). The `p=` value in the result is the public key used to cryptographically verify the message content has not been tampered with in transit. Doing this verification manually is out of scope for this overview, but your mail client will let you know if a message fails to pass `DKIM` with either `dkim=pass` or `dkim=fail` in the message headers.
 
-## DNSSEC
+---
+
+### DNSSEC
 
 Last, we'll see if DNSSEC has been set:
 
@@ -262,7 +278,7 @@ Again, this is all about tying data points together. They should in some way all
 
 ---
 
-# Active Defense
+## Active Defense
 
 This section is mainly for anyone doing content creation + social media, but equally for anyone clicking links and opening documents frequently (basically all of us).
 

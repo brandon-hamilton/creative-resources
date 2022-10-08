@@ -138,7 +138,7 @@ DALL-E 2 will then generate the missing information.
 
 ![](/media/automation-dall-e-2-004.png)
 
-## Color / B&W Image to Line Art Automation
+## Image to Line Art Automation
 
 ![](/media/ps-filters-lineart-001.gif)
 
@@ -226,7 +226,7 @@ This operation can be slow depending on your settings. For reference, on a Virtu
 
 ---
 
-## Generate a Color Palette from an Image
+## Generate a Color Palette
 
 If there's an image  with a color palette you like, you can quickly generate a usable palette with the following:
 
