@@ -2,8 +2,6 @@
 
 ![](media/banner.png)
 
-View the web version at <https://brandon-hamilton.github.io/creative-resources-web/>.
-
 ## Goal of this Project
 
 The goal is for this to be an exhaustive list of tools, methods, resources, and cheat-sheets in an open repository that accepts pull requests to cover new or missing data, and can be forked by you to modify, use, and improve upon.
@@ -14,15 +12,15 @@ As weird as it sounds this idea was inspired by projects like [PayloadsAllTheThi
 
 ### If you're new to GitHub
 
-Click on the individual `.md` files above for details on that topic.
+View the source code here: <https://github.com/brandon-hamilton/creative-resources>
 
-On mobile, you'll need to click `View code` first to see the `.md` files.
+This is a static site built from those files. Navigate topics using the list on the left, or on mobile use the menu icon on the top left to view the list of topics.
 
 ---
 
 ### Download An Offline Copy
 
-Click the `[Code v]` button at the top of the repo and choose [Download ZIP](https://github.com/brandon-hamilton/creative-resources/archive/refs/heads/main.zip).
+Click the `[Code v]` button at [the top of the project page](https://github.com/brandon-hamilton/creative-resources) or download it directly from here: [Download ZIP](https://github.com/brandon-hamilton/creative-resources/archive/refs/heads/main.zip).
 
 ---
 

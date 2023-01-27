@@ -1,0 +1,33 @@
+site_name: Creative Resources
+
+repo_url: https://github.com/brandon-hamilton/creative-resources
+repo_name: creative-resources
+edit_uri: edit/main/
+
+theme:
+  name: material
+  font: false
+  icon:
+    edit: material/file-edit
+  palette:
+    - scheme: slate
+      primary: yellow
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+  features:
+#    - navigation.expand
+#    - navigation.tabs
+#    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking # URL always updates with the active anchor
+    - toc.integrate
+
+plugins:
+  - search
