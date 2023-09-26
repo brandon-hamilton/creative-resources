@@ -85,39 +85,15 @@ This template structure will update all of the frames directly within the templa
 
 ### Sequential Art Layers
 
-`OPTION 2` has no issues with layer density or file size outside of the normal constraints you'd encounter for any image.
-
-`OPTION 1` has two efficient layering approaches:
-
-```
-# Flat Layers
-Foreground Sketch Layer
-Background Sketch Layer
-```
+Example layer structure, in this case for line art with color.
 
 ```
 # Grouped Frames
-Group/Frame001
-	|_Foreground Sketch Layer
-	|_Background Sketch Layer
-Group/Frame002
-	|_Foreground Sketch Layer
-	|_Background Sketch Layer
+Group/Character
+	|_Line Art -> Set layer mode to multiply
+	|_Color
+Group/Background
+	|_Line Art -> Set layer mode to multiply
+	|_Color
 etc...
 ```
-
-Ideally you'd use the `Grouped Frames` method giving you the most control and portability in moving individual layers around with the cost of slightly more overhead.
-
-The `Flat Layers` method is best suited for storyboards that will be super rough / early stage, where all of the foreground / background line art shares a single layer. This is slightly more intuitive to work with but less portable and forgiving when rearranging frame order.
-
----
-
-### Mixing Workflows
-
-There's no reason not to mix all of these in whatever path to completing your goal is most efficient.
-
-For example:
-
-- Start with `OPTION 1` to develop roughs
-- Switch to `OPTION 2` after roughs are approved for the remainder of the project
-
