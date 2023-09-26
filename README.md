@@ -6,6 +6,8 @@ https://brandon-hamilton.github.io/creative-resources/
 
 All of the markdown and media files for the documentation can be found under [docs](/docs).
 
+Any templates, tools, or files available will be under [utilities](/utilities).
+
 ## License
 
 Creative Resources is released under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
