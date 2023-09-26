@@ -8,6 +8,8 @@ Echoing what was stated in the [README](/README.md#legal-disclaimer), this is no
 
 ## Backup & Recovery
 
+[CISA Guidance on Data Backup & Recovery](https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf)
+
 - External
 	* storage device(s) not always attached
 - Cloud
@@ -21,6 +23,24 @@ These are general recommendations, as it's unlikely all three will fail simultan
 You may or may not need to implement all of them. If you're just starting freelancing for example, `Cloud` alone may be the most effective.
 
 **Practice** recovering. Testing your backups is the only way to know they'll work and what to expect.
+
+### Local Backups
+
+Creating and maintaining local backups can be messy. Especially if you need to work during an internet outage and don't have a cloud backup sync available, or cannot store files on a cloud provider.
+
+[New-BackupCopies.ps1](https://github.com/brandon-hamilton/creative-resources/blob/main/utilities/New-BackupCopies.ps1) is a PowerShell script you can use to easily and safely backup working files.
+
+- Copy the script into the directory of files you want to backup
+- Shift + Right-Click in the same folder and choose "Open in Terminal" or "Open PowerShell window here"
+- Enter `Import-Module .\New-BackupCopies.ps1`
+- To use the function, for example on pdf's, again in the same window enter `New-BackupCopies -Extension pdf`
+
+This creates a folder titled "Backups" with copies of all files matching the specified extension, and the date + time appended to their file names.
+
+This is meant to be quick and repeatable, removing as much room for error as possible.
+
+Multiple backup copies are produced since the file name is unique to the timestamp. This consumes more disk space, but will prevent a corrupt working file from overwriting a single backup (single point of failure).
+
 
 ## Files
 
