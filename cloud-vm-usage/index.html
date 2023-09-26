@@ -1,0 +1,1282 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../cloud-aws/">
+      
+      
+        <link rel="next" href="../color-calibration/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.2">
+    
+    
+      
+        <title>Cloud VM Usage - Creative Resources</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.d451bc0e.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a5377069.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="yellow" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cloud-vm-usage" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Creative Resources" class="md-header__button md-logo" aria-label="Creative Resources" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Creative Resources
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cloud VM Usage
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="yellow" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/brandon-hamilton/creative-resources" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    creative-resources
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Creative Resources" class="md-nav__button md-logo" aria-label="Creative Resources" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Creative Resources
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/brandon-hamilton/creative-resources" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    creative-resources
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creative Resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adobe-photoshop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adobe Photoshop
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../animation-2d/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Animation 2D
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../automation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Automation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../buying-equipment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Buying Equipment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud-aws/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cloud AWS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Cloud VM Usage
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Cloud VM Usage
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#virtualization" class="md-nav__link">
+    Virtualization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud" class="md-nav__link">
+    Cloud
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcoip" class="md-nav__link">
+    PCoIP
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teradici" class="md-nav__link">
+    Teradici
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teradici-in-aws" class="md-nav__link">
+    Teradici in AWS
+  </a>
+  
+    <nav class="md-nav" aria-label="Teradici in AWS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    Setup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#launch-an-instance" class="md-nav__link">
+    Launch an Instance:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#first-time-login" class="md-nav__link">
+    First Time Login
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teradici-in-google-cloud" class="md-nav__link">
+    Teradici in Google Cloud
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teradici-in-azure" class="md-nav__link">
+    Teradici in Azure
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teradici-usage-summary" class="md-nav__link">
+    Teradici Usage Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#macos-in-aws" class="md-nav__link">
+    macOS in AWS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nvidia" class="md-nav__link">
+    Nvidia:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adobe" class="md-nav__link">
+    Adobe
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../color-calibration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Color Calibration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../command-line-for-creatives/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Command Line for Creatives
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../legal-compliance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Legal, Compliance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../links/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Links
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../os-cheat-codes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OS 'Cheat Codes'
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pixel-art/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pixel Art
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../protecting-your-business/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protecting Your Business
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../protecting-your-work/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protecting Your Work
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../record-keeping/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Record Keeping
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reference-gathering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reference Gathering
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scoping/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scoping
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sequential-art/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sequential Art
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topaz-gigapixel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Topaz Gigapixel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topaz-studio-2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Topaz Studio 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../verify-data-integrity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verify Data Integrity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workflow-general/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Workflow - General
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workflow-production-pipeline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Workflow - Production Pipeline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="cloud-vm-usage">Cloud VM Usage</h1>
+<p>Also known as VDI or vWS, virtual machine deployment will become larger in the future. </p>
+<p>Why is this technology worth looking at?</p>
+<h2 id="virtualization">Virtualization</h2>
+<ul>
+<li>Resiliancy (an update gone wrong doesn't stop work)</li>
+<li>Scalable workloads (need a powerful GPU to render something once?)</li>
+<li>Security / Workspace Isolation (in the event malware delivery is successful, revert the workspace to a clean state)</li>
+<li>Testing / Learning (try new tools and configurations without accidentally breaking your system)</li>
+<li>Development Environment</li>
+<li>Portability (move virtual appliances between hosts, have a backup of your entire workspace)</li>
+</ul>
+<h2 id="cloud">Cloud</h2>
+<ul>
+<li>Immediate workspace access from any compute device should your physical workstation fail<ul>
+<li>If there are supply chain constraints, a real replacement could take months</li>
+<li>Do not waste $1000+ on a replacement that is not future proofed, and only temporary - this is what VM's are for</li>
+</ul>
+</li>
+<li>Ephemeral environments (security + availability)</li>
+<li>All major cloud providers offer a virtual desktop as a service<ul>
+<li>GCP and AWS offer this on demand, or pay by the minute at around $2.60/hr</li>
+</ul>
+</li>
+<li>Thin client access <ul>
+<li>Access your tools remotely</li>
+<li>No opening ports on your home network<ul>
+<li>This would require VPN infrastructure or networking knowledge to not put your home network at risk</li>
+</ul>
+</li>
+<li>No putting your expensive devices at risk of theft or damage while traveling</li>
+</ul>
+</li>
+</ul>
+<h2 id="pcoip">PCoIP</h2>
+<ul>
+<li>Much higher performance than other remote access protocols (it's 1:1 in responsiveness for drawing / painting)</li>
+<li>Designed to support creative workflows (video / audio editing, 2D / 3D, Wacom Tablet &amp; USB passthrough)</li>
+<li>Already being used by studios in the creative fields</li>
+<li>Protects data by keeping it on the 'server'</li>
+</ul>
+<p>It's different than other remote access software in that you cannot pull data directly from the <strong>server</strong> back to the <strong>client</strong> over this protocol without an alternative means of remote access (e.g. ssh)</p>
+<h2 id="teradici">Teradici</h2>
+<ul>
+<li><a href="https://connect.teradici.com/contact-us">Contact Teradici</a></li>
+<li><a href="https://www.teradici.com/what-is-pcoip">What is the PCoIP protocol?</a></li>
+<li><a href="https://connect.teradici.com/blog/teradici-unreal-engine-aws">Teradici Blog, Create an instance with Unreal Engine preinstalled in AWS</a></li>
+<li><a href="https://connect.teradici.com/blog/microsoft-automated-deployment-windows">Teradici Blog, Windows Deployment</a></li>
+<li><a href="https://github.com/teradici/cloud_deployment_scripts">Teradici Github Deployment Scripts</a></li>
+<li><a href="https://docs.teradici.com/find/product/software-and-mobile-clients">Teradici Software and Mobile Client Downloads</a></li>
+</ul>
+<p><strong>Teradici Windows Client</strong>:</p>
+<ul>
+<li>
+<p><a href="https://docs.teradici.com/find/product/software-and-mobile-clients/2022.04/software-client-for-windows">Download - Windows Client</a></p>
+</li>
+<li>
+<p>Downloads and Scripts</p>
+</li>
+<li>Agree to the ToS</li>
+<li><code>Download Now</code> will download the installer</li>
+<li>
+<p><code>SHA</code> will reveal the installer's hashes to verify the integrity</p>
+</li>
+<li>
+<p>Copy the string of letters / numbers under <code>SHA-256 hash for pcoip-client_22.04.0.exe</code></p>
+</li>
+<li>Open the folder containing the downloaded <code>.exe</code> file</li>
+<li>In an empty space in the that folder window, <code>Shift+Right-Click &gt; Open PowerShell window here</code></li>
+</ul>
+<pre><code class="language-powershell">Get-FileHash .\pcoip-client_22.04.0.exe | Select-String PASTE_THE_STRING_OF_LETTERS_AND_NUMBERS_HERE
+</code></pre>
+<ul>
+<li>Hit enter</li>
+<li>If it matches you should see the following:</li>
+</ul>
+<pre><code class="language-powershell">@{Algorithm=SHA256; Hash=THE_STRING_YOU_PASTED_IS_HERE
+</code></pre>
+<ul>
+<li>If there's no match you won't see that output, download the file again and ensure the hash matches before you run it.</li>
+</ul>
+<p>If you're familiar with PowerShell and scripting they provide the exact URL's to use in a script to automatically install, check for updates, and run this software.</p>
+<p><strong>Teradici Linux Client</strong>:</p>
+<ul>
+<li><a href="https://docs.teradici.com/find/product/software-and-mobile-clients/2022.01/software-client-for-linux">Download - Linux Client</a></li>
+</ul>
+<pre><code class="language-bash"># Ubuntu 18.04
+curl -1sLf https://dl.teradici.com/DeAdBCiUYInHcSTy/pcoip-client/cfg/setup/bash.deb.sh | sudo -E distro=ubuntu codename=bionic bash
+# Ubuntu 20.04
+curl -1sLf https://dl.teradici.com/DeAdBCiUYInHcSTy/pcoip-client/cfg/setup/bash.deb.sh | sudo -E distro=ubuntu codename=focal bash
+</code></pre>
+<p>Public key for reference:</p>
+<pre><code># pub   rsa4096 2020-09-24 [SC]
+#      9A70 FD64 D3F7 3934 1A2F  8AC7 4581 DD6A CC91 0D6F
+# uid           [ unknown] Teradici Corporation &lt;gpg@teradici.com&gt;
+
+</code></pre>
+<ul>
+<li><a href="https://www.teradici.com/web-help/pcoip_client/linux/22.01/">Install - Linux Client</a></li>
+</ul>
+<blockquote>
+<p><code>bash
+sudo apt update
+sudo apt install pcoip-client</code></p>
+</blockquote>
+<h2 id="teradici-in-aws">Teradici in AWS</h2>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/media/deploying-your-favorite-post-production-applications-on-aws-virtual-desktop-infrastructure/">Overview of VDI deployment in AWS for creative professionals</a></li>
+<li><a href="https://aws.amazon.com/blogs/media/getting-started-with-aws-cloud-video-editing/">This guide</a> covers setting up a cloud VM for video editing.<ul>
+<li>Geared towards organizations with an existing Teradici CAS license</li>
+<li>Individuals can easily choose the Teradici pay-as-you-go AMI from the marketplace instead</li>
+</ul>
+</li>
+<li><a href="https://github.com/aws-solutions/edit-in-the-cloud-on-aws">AWS GitHub for deploying editing workstations in the cloud</a></li>
+<li><a href="https://aws.amazon.com/marketplace/pp/prodview-mj35z5mqzmanm">The Teradici appliance in AWS</a></li>
+<li>How to <a href="https://aws.amazon.com/premiumsupport/knowledge-center/retrieve-windows-admin-password/">retrieve the Windows admin password for initial logon</a></li>
+</ul>
+<p>Be sure to read <a href="/cloud-aws.md">cloud-aws.md</a> first. That document covers specifics, while this provides a complete general overview from account creation to starting the instance.</p>
+<h3 id="setup">Setup</h3>
+<p><strong>Subscriptions</strong>: these are marketplace offerings in AWS, or what VM's you can deploy and use in their cloud. That's what they call them. You pay per hour unless you add a yearly software usage agreement up front.</p>
+<ol>
+<li>Create your AWS account (this is called the root account)<ul>
+<li>It's free to sign up</li>
+<li>You'll have free trial usage on many 'subscriptions'</li>
+</ul>
+</li>
+<li>Contact AWS support for resource allowances of G instances (GPU compute resources) for up to 8 vCPU<ul>
+<li>This can take anywhere from 24-72 hours for approval (especially on newly created accounts, additional verification steps may be required)</li>
+</ul>
+</li>
+<li>'Subscribe' to whichever Teradici marketplace offering you'd like to use<ul>
+<li>Subscribing is free, it adds the item to your account for use</li>
+<li>You're not paying anything up front unless you also add a software usage agreement<ul>
+<li>This will be a larger fee paid up front on a yearly basis</li>
+<li>This is not enabled by default and you need to walk through prompts to add this up front cost to your 'subscription'</li>
+</ul>
+</li>
+<li>You can subscribe to all of them if you want, it just makes them available for you to use (which is exactly what we want)</li>
+</ul>
+</li>
+<li>
+<p>Create your own key in the KMS (Key Management Service)</p>
+<ul>
+<li>This is recommended if you're handling customer / client data in the cloud.</li>
+<li>Save the key to your password manager</li>
+</ul>
+</li>
+<li>
+<p>At this point you can continue through the prompts to launch an instance.</p>
+</li>
+</ol>
+<h3 id="launch-an-instance">Launch an Instance:</h3>
+<ol>
+<li>EC2<ul>
+<li><code>Instances</code> &gt; <code>Launch Instances</code></li>
+<li><code>Search</code> &gt; <code>Teradici</code> &gt; <code>OK</code> &gt; <code>Confirm Any Changes</code></li>
+<li><code>Instance Type</code>, choose one of the following:<ul>
+<li><code>g4dn.xlarge</code></li>
+<li><code>g4dn.2xlarge</code></li>
+</ul>
+</li>
+<li>Key Pair, if you don't have any create a new <code>rsa</code> key pair<ul>
+<li>Name is anything you like <code>teradici_aws_rsa_key</code></li>
+<li><code>.pem</code> format</li>
+<li>Keep a backup of the downloaded <code>.pem</code> file in your password manager, this is your private key<ul>
+<li>In AWS this block of text is used to decrypt the Windows login password</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Network Settings<ul>
+<li>AWS creates a security group by default</li>
+<li>This is just a set of ports required to be open on the server, to receive connections from the Terdici client (you)</li>
+<li>Leave everything checked that's checked</li>
+<li>Change <code>Anywhere 0.0.0.0/0</code> to <code>My IP</code><ul>
+<li>This is highly recommended - it firewalls the Teradici server so it can only receive inbound communication from your current public IP address</li>
+<li>You may want to consider securing access to the server with your own VPN in AWS.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Launch Instance   </li>
+</ul>
+</li>
+</ol>
+<h3 id="first-time-login">First Time Login</h3>
+<ol>
+<li>
+<p>After launching the instance, <a href="https://aws.amazon.com/premiumsupport/knowledge-center/retrieve-windows-admin-password/">wait ~4 minutes before retrieving the Windows password</a> (it can take longer)</p>
+</li>
+<li>
+<p>Connect to the Teradici instance</p>
+<ul>
+<li>Run the Teradici client on your local machine</li>
+<li>Enter the IP address of the Teradici 'server' in the cloud<ul>
+<li>You'll be alerted that this is an 'insecure' self signed certificate</li>
+<li>This can be confusing if you're not familiar with <a href="https://en.wikipedia.org/wiki/Public_key_infrastructure">PKI</a>. Your connection <em>is secure to and from this endpoint</em>, however it's up to you to verify the certificate is correct as it's not 'known' by any public certificate authority, as it was created internally just for this connection</li>
+<li>In this case, simply looking at the certificate will show you it was made for this Teradici instance.</li>
+<li>You can write down, screenshot, or make note of the fingerprint to ensure it's always the same fingerprint from this point on (this is what your browser does automatically when a certificate is publicly recognized by a certificate authority)</li>
+<li>The reason this is created automatically for you, is to avoid requiring you to provision your own PKI</li>
+</ul>
+</li>
+<li>Enter the login credentials when prompted for them, and you're done.<ul>
+<li><strong>RECOMMENDED</strong>: Change or update the admin password if it's not unique</li>
+<li><strong>RECOMMENDED</strong>: Create a standard user account to use rather than the administrator (Windows) or root (Linux) account</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="teradici-in-google-cloud">Teradici in Google Cloud</h2>
+<p>Google Cloud Quick-Start, step by step deployment of a trial VM:</p>
+<ul>
+<li>https://www.youtube.com/watch?v=pNsAReBaAfA</li>
+<li>
+<p>https://www.teradici.com/web-help/pcoip_client/linux/22.01/installation/install_client_ubuntu/</p>
+</li>
+<li>
+<p>Create a GCP account</p>
+<ul>
+<li>It's free to sign up</li>
+<li>You pay only for resources you use</li>
+</ul>
+</li>
+<li>
+<p>Be sure to 'upgrade' your account from a trial account, to a normal account</p>
+<ul>
+<li>You can do this from the top of the UI in the GCP dashboard</li>
+</ul>
+</li>
+<li>
+<p>Request compute resources from GCP to run vGPU based instances</p>
+<ul>
+<li>Attempting to start a GPU compute instance will prompt you to do this</li>
+<li>This can take up to two days, or as little as a couple hours</li>
+</ul>
+</li>
+<li>
+<p>Download and install the teradici client (<a href="#teradici">see steps above</a>)</p>
+<ul>
+<li>Download:<ul>
+<li>https://docs.teradici.com/find/product/software-and-mobile-clients/2022.01/software-client-for-linux</li>
+</ul>
+</li>
+<li>Install:<ul>
+<li>https://www.teradici.com/web-help/pcoip_client/linux/22.01/</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Start the Teradici VM</p>
+<ul>
+<li>https://www.teradici.com/web-help/cloud-access-software/gcp/documents/getting-started-windows/getting-started-guide/</li>
+<li><strong>IMPORTANT</strong>: it's recommended you set the firewall rules here to only accept source traffic from your client device's current public IP address.<ul>
+<li><code>curl ifconfig.co</code></li>
+<li><a href="https://www.google.com/search?q=whats+my+ip">Google, what's my ip?</a></li>
+<li><a href="https://duckduckgo.com/?t=ffsb&amp;q=whats+my+ip&amp;ia=answer">DuckDuckGo, what's my ip?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Configure a Windows account password for desktop access</p>
+<ul>
+<li>https://cloud.google.com/compute/docs/instances/windows/generating-credentials#generating_credentials</li>
+</ul>
+</li>
+<li>
+<p>Connect to the Teradici instance</p>
+<ul>
+<li>Run the Teradici client on your local machine</li>
+<li>Enter the IP address of the Teradici server in the cloud<ul>
+<li>You'll be alerted that this is an 'insecure' self signed certificate</li>
+<li>This can be confusing if you're not familiar with <a href="https://en.wikipedia.org/wiki/Public_key_infrastructure">PKI</a>. Your connection is secure to and from this endpoint, however it's up to you to verify the certificate is correct as it's not 'known' by any public certificate authority, as it was created internally just for this connection</li>
+<li>In this case, simply looking at the certificate will show you it was made for this Teradici instance.</li>
+<li>You can write down or make note of the fingerprint to ensure it's always the same fingerprint from this point on (this is what your browser does automatically when a certificate is publicly recognized by a certificate authority)</li>
+<li>The reason this is created automatically for you, is to avoid requiring you to provision your own PKI</li>
+</ul>
+</li>
+<li>Enter the login credentials when prompted for them, and you're done.<ul>
+<li><strong>RECOMMENDED</strong>: Change or update the admin password if it's not unique</li>
+<li><strong>RECOMMENDED</strong>: Create a standard user account to use rather than the administrator (Windows) or root (Linux) account</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="teradici-in-azure">Teradici in Azure</h2>
+<p>Azure Deployment guide for a developer ready PCoIP VM:
+- https://connect.teradici.com/hubfs/Teradici%20Virtual%20Desktops%20for%20Game%20Developers.pdf</p>
+<p><strong>NOTE</strong>: requires minimum 5 license purchase @$120/license</p>
+<hr />
+<h2 id="teradici-usage-summary">Teradici Usage Summary</h2>
+<p>By default copy/paste on the clipboard works to/from the remote machine.</p>
+<p>You can pass through local USB devices from the menu in the Teradici client window</p>
+<p>At a cost of roughly $2.50/hr:</p>
+<pre><code># 2.50/hr x 8 hrs/day x 5 days/week x 4 weeks/month
+(((2.50*8)*5)*4)
+= 400.0
+</code></pre>
+<ul>
+<li>8vCPU's</li>
+<li>30GB RAM</li>
+<li>1x NVIDIA Tesla P4</li>
+</ul>
+<p>Realistically you're not using this full time. Most likely you'd be using it for testing or even just a day where you need it, which comes to roughly $20.0 for an 8 hour workday.</p>
+<hr />
+<h2 id="macos-in-aws">macOS in AWS</h2>
+<p>Run a full macOS desktop environment in the cloud, connecting via ssh and Teradici.</p>
+<p><strong>NOTE</strong>: this runs on bare-metal and requires a 24-hour minimum usage fee (roughly $26)</p>
+<ul>
+<li>Overview<ul>
+<li>https://connect.teradici.com/blog/aws-macos-remote-access</li>
+</ul>
+</li>
+<li>Step-by-step deployment guide<ul>
+<li>https://aws.amazon.com/getting-started/hands-on/launch-connect-to-amazon-ec2-mac-instance/</li>
+<li>https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-mac-instances.html#mac-instance-launch</li>
+</ul>
+</li>
+<li>AWS Marketplace Listing<ul>
+<li>https://aws.amazon.com/marketplace/pp/prodview-isaghmqny2wr6</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="nvidia">Nvidia:</h2>
+<p>The easiest way to use Nvidia vGPU solutions is through a cloud provider offering a virtual desktop</p>
+<ul>
+<li>Teradici + GCP</li>
+<li>Teradici + AWS</li>
+<li>Teradici + Azure</li>
+<li>Teradici + VMware Horizon</li>
+</ul>
+<p>Alternatively to setup your own, you'll need a Teradici software license, a supported Nvidia graphics card (non-consumer cards like Quadro or A series) and potentially a Teradici 'card' installed in your hardware.</p>
+<p>You may also require specific virtualization technology such as VMware ESXi or Hyper-V (VMware Workstation or VirtualBox will not work)</p>
+<p>vGPU Software &amp; Version Index
+- https://docs.nvidia.com/grid/index.html</p>
+<p>vGPU Supported Products (cards that support GPU passthrough)
+- https://docs.nvidia.com/grid/latest/product-support-matrix/index.html</p>
+<p>What is vGPU
+- https://www.nvidia.com/en-us/design-visualization/virtual-workstation/
+- https://www.nvidia.com/en-us/data-center/graphics-cards-for-virtualization/</p>
+<p>Cost + how to use with virtualization software:
+- https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/solutions/resources/documents1/Virtual-GPU-Packaging-and-Licensing-Guide.pdf </p>
+<p>Example use case:
+- https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/solutions/resources/documents1/vgpu-media-entertainment-DNEG--customer-story.pdf</p>
+<hr />
+<h2 id="adobe">Adobe</h2>
+<p>CC VDI Deployment
+- https://helpx.adobe.com/enterprise/using/creative-cloud-deployment-on-vdi.html</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.top", "navigation.tracking", "toc.integrate"], "search": "../assets/javascripts/workers/search.a264c092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.726fbb30.min.js"></script>
+      
+    
+  </body>
+</html>
