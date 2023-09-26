@@ -260,6 +260,13 @@ Expand-Archive -Path "C:\Windows\Temp\ACCC_latest.zip" -DestinationPath "C:\Your
 - Install Instructions: <https://helpx.adobe.com/support/premiere-pro.html>
 - Documentation: <https://helpx.adobe.com/support/premiere-pro.html>
 
+#### Blender
+
+- <https://www.blender.org/>
+- Summary: complete 3D modeling, animation, and 3D drawing suite
+- Install Instructions: <https://docs.blender.org/manual/en/latest/getting_started/installing/index.html>
+- Documentation: <https://www.blender.org/support/>
+
 #### DaVinci Resolve
 
 - <https://www.blackmagicdesign.com/products/davinciresolve/>
